@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Halfling (Athas)" type="Race" source="Dark Sun 5e Conversion" id="ID_RACE_VARIANT_HALFLING_DARKSUN">
+        <description>
+            <p>Halflings are masters of the jungles of the Ringing Mountains. They are small, quick and agile creatures steeped in an ancient and rich culture that goes back far into Athas’ past. Although they are not common in the Tablelands, some halflings leave their homes in the forests to adventure under the Dark Sun. As carnivores, halflings prefer to eat flesh raw.</p>
+            <h4>Personality:</h4>
+            <p class="indent">Halflings have difficulty understanding others’ customs or points of view, but curiosity helps some halflings overcome their xenophobia. Little concerned with material wealth, halflings are more concerned with how their actions will affect other halflings.</p>
+            <h4>Physical Description: </h4>
+            <p class="indent">Halflings are small creatures, standing only about 3 1/2 feet tall and weighing 50 to 60 pounds. Rarely affected by age, halfling faces are often mistaken for the faces of human children. They dress in loincloths, sometimes with a shirt or vest, and paint their skins with bright reds and greens. Forest halflings rarely tend to their hair, and some let it grow to great lengths, though it can be unkempt and dirty. They live to be about 120 years old.</p>
+            <h4>Relations:</h4>
+            <p class="indent">Halfling’s culture dominates their relations with others. They relate very well to each other, since they all have the same cultural traits and are able to understand each other. Halflings of different tribes still share a tradition of song, art and poetry, which serves as a basis of communication. Creatures that do not know these cultural expressions are often at a loss to understand the halfling’s expressions, analogies and allusions to well– known halfling stories. Halflings can easily become frustrated with such “uncultured” creatures. They abhor slavery and most halflings will starve themselves rather than accept slavery.</p>
+            <h4>Alignment:</h4>
+            <p class="indent">Halflings tend towards law and evil. Uncomfortable with change, halflings tend to rely on intangible constants, such as racial identity, family, clan ties and personal honor. On the other hand, halflings have little respect for the laws of the big people.</p>
+            <h4>Halfling Lands:</h4>
+            <p class="indent">Halflings villages are rare in the tablelands. Most halflings live in tribes or clans in the Forest Ridge, or in the Rohorind forest west of Kurn. Many dwell in treetop villages. Non–halflings typically only see these villages from within a halfling cooking pot.</p>
+            <h4>Magic:</h4>
+            <p class="indent">Many halfling tribes reject arcane magic. Tribes that accept wizards tend to have preserver chieftains. Only renegade halfling tribes are ever known to harbor defilers.</p>
+            <h4>Psionics:</h4>
+            <p class="indent">Many halflings become seers or nomads. In the forest ridge, many tribal halflings become multi-classed seer/rangers, and become some of the deadliest trackers on Athas.</p>
+            <h4>Religion:</h4>
+            <p class="indent">Halflings’ bond with nature extends into most aspects of their culture. A shaman or witch doctor, who also acts as a spiritual leader, often rules their clans. This leader is obeyed without question. Halfling fighters willingly sacrifice themselves to obey their leader.</p>
+            <h4>Language:</h4>
+            <p class="indent">Halflings rarely teach others their language, but some individuals of the Tablelands have learned the wild speech. Halflings found in the Tablelands often learn to speak Common.</p>
+            <h4>Names:</h4>
+            <p class="indent">Halflings tend to have only one given name.</p>
+            <h4>Male Names:</h4>
+            <p class="indent">Basha, Cerk, Derlan, Drassu, Entrok, Kakzim, Lokee, Nok, Pauk, Plool, Sala, Tanuka, Ukos, Zol.</p>
+            <h4>Female Names:</h4>
+            <p class="indent">Alansa, Anezka, Dokala, Grelzen, Horga, Jikx, Joura, Nasaha, Vensa.</p>
+            <h4>Adventurers:</h4>
+            <p class="indent">Exploring the Tablelands gives curious halflings the opportunity to learn other customs. Although they may at first have difficulty in understanding the numerous practices of the races of the Tablelands, their natural curiosity enables them to learn and interact with others. Other halflings may be criminals, renegades or other tribal outcasts, venturing into the Tablelands to escape persecution by other halflings.</p>
+            <h4>Halfling Society:</h4>
+            <p class="indent">Most halflings have a common outlook on life that results in considerable racial unity across tribal and regional ties. Rarely will one halfling draw the blood of another even during extreme disagreements. Only renegade halflings do not share this racial unity, and are cast out of their tribes because of it. Halfling society is difficult for other races to understand, as such concepts as conquest and plundering have no place. The most important value in halfling society is the abilities of the inner self as it harmonizes with the environment and the rest of the halfling race. Halflings are extremely conscious of their environment. They are sickened by the ruined landscape of the Tyr region and desperately try to avoid having similar devastation occur to their homelands in the Forest Ridge. Most halflings believe that care must be taken to understand and respect nature and what it means to all life on Athas. Halfling culture is expressed richly through art and song. Story telling in which oral history is passed on to the next generation is an important part of each halfling community. Halflings rely on this shared culture to express abstract thoughts and complicated concepts. This causes problems and frustration when dealing with non‐ halflings. Typically halflings assume that whomever they are talking to have the same cultural background to draw upon, and find it difficult to compensate for a listener who is not intimately familiar with the halfling history and “lacks culture.” Generally open‐minded, wandering halflings are curious about outside societies and will attempt to learn all they can about other cultures. Never, will they adopt aspects of those cultures as their own, believing halfling culture to be innately superior to all others. Nor do they seek to change others’ culture or views. While halflings are omnivorous, they vastly prefer meat. Their meat heavy diet means that halflings view all living creatures, both humanoid and animal, as more food than equals. At the same time, most halflings believe that other races have the same perception of them. As a result, halflings are rarely likely to trust another member of any other race.</p>
+            <h4>Roleplaying Suggestions:</h4>
+            <p class="indent">Remember to consistently take your height into account. Role–play the halfling culture described above: eating opponents, treating fellow halflings with trust and kindness, suspicion of big people, and general lack of interest in money.</p>
+
+            <h4>HALFLING TRAITS</h4>
+            <p class="indent">
+                <strong>
+                    <em>Ability Score Increase.</em>
+                </strong> Your Dexterity score increases by 2, and your Wisdom score increases by 1.</p>
+            <p class="indent">
+                <strong>
+                    <em>Age.</em>
+                </strong> Halflings live to a maximum of 120 years.</p>
+            <p class="indent">
+                <strong>
+                    <em>Size.</em>
+                </strong>Halflings stand only about 3 1/2 feet tall. Your size is Small.</p>
+            <p class="indent">
+                <strong>
+                    <em>Speed.</em>
+                </strong> Your base land speed is 25 feet.</p>
+            <p class="indent">
+                <strong>
+                    <em>Halfling Nimbleness.</em>
+                </strong> You can move through the space of any creature that is of a size larger than yours.</p>
+            <p class="indent">
+                <strong>
+                    <em>Agile</em>
+                </strong> You gain advantage on any Acrobatics checks made to climb or jump.</p>
+            <p class="indent">
+                <strong>
+                    <em>Skill Versatility.</em>
+                </strong> You are gain proficiency in two skills of your choice.</p>
+            <p class="indent">
+                <strong>
+                    <em>Keen Senses</em>
+                </strong> You are proficient in the Perception skill.</p>
+            <p class="indent">
+                <strong>
+                    <em>Languages.</em>
+                </strong>You can speak Common and Halfling. Halflings rarely, if ever, teach their language to someone outside of their tribe. No known record exists of the Halfling language outside of the tribes.</p>
+        </description>
+        <sheet alt="Halfling" display="false" />
+        <setters>
+            <set name="names" type="male">Basha, Cerk, Derlan, Drassu, Entrok, Kakzim, Lokee, Nok, Pauk, Plool, Sala, Tanuka, Ukos, Zol</set>
+            <set name="names" type="female">Alansa, Anezka, Dokala, Grelzen, Horga, Jikx, Joura, Nasaha, Vensa</set>
+            <set name="names-format">{{name}}</set>
+        </setters>
+        <rules>
+            <stat name="dexterity" value="2" />
+            <stat name="wisdom" value="1" />
+            <stat name="innate speed" value="25" bonus="base" />
+            <grant type="Size" id="ID_SIZE_SMALL" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_HALFLING" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALFLING_NIMBLENESS" />
+            <grant type="Racial Trait" id="ID_DARKSUN_RACIAL_TRAIT_AGILE" />
+            <grant type="Racial Trait" id="ID_DARKSUN_RACIAL_TRAIT_SKILL_VERSATILITY" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_SENSES" />
+        </rules>
+    </element>
+
+    <!-- Agile -->
+    <element name="Agile" type="Racial Trait" source="Dark Sun 5e Conversion" id="ID_DARKSUN_RACIAL_TRAIT_AGILE">
+        <description>
+            <p>You gain advantage on any Acrobatics checks made to climb or jump.</p>
+        </description>
+        <sheet>
+            <description>You gain advantage on any Acrobatics checks made to climb or jump.</description>
+        </sheet>
+    </element>
+
+    <!-- Skill Versatility -->
+    <element name="Skill Versatility" type="Racial Trait" source="Dark Sun 5e Conversion" id="ID_DARKSUN_RACIAL_TRAIT_SKILL_VERSATILITY">
+        <supports />
+        <requirements />
+        <description>
+            <p>You gain proficiency in two skills of your choice.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Proficiency" name="Skill Proficiency (Halfling)" supports="Skill" number="2" />
+        </rules>
+    </element>
+</elements>
