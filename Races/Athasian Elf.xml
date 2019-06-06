@@ -124,24 +124,6 @@
         <supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
     </element>
 
-    <!-- Elven longblade -->
-    <element name="Elven longblade" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_ELVEN_LONGBLADE">
-        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
-        <description>
-            <p>The traditional weapon of the Elves of Athas, it resembles a thin scimitar with the tip slightly curved.
-            </p>
-        </description>
-        <setters>
-            <set name="category">Weapons</set>
-            <set name="cost" currency="gp">15</set>
-            <set name="weight" lb="3">3 lb.</set>
-            <set name="slot">onehand</set>
-            <set name="damage" type="slashing">1d8</set>
-            <set name="versatile">1d10</set>
-            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_ELVEN_LONGBLADE</set>
-        </setters>
-    </element>
-
     <!-- Athasian Resistance -->
     <element name="Athasian Resistance" type="Racial Trait" source="Dark Sun 5e Conversion" id="ID_DARKSUN_RACIAL_TRAIT_ATHASIAN_RESISTANCE">
         <description>
