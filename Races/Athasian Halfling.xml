@@ -69,6 +69,10 @@
                 </strong> You are proficient in the Perception skill.</p>
             <p class="indent">
                 <strong>
+                    <em>Defiled Skin.</em>
+                </strong> You have advantage on saving throws against spells and other magical effects.</p>
+            <p class="indent">
+                <strong>
                     <em>Languages.</em>
                 </strong>You can speak Common and Halfling. Halflings rarely, if ever, teach their language to someone outside of their tribe. No known record exists of the Halfling language outside of the tribes.</p>
         </description>
@@ -89,6 +93,7 @@
             <grant type="Racial Trait" id="ID_DARKSUN_RACIAL_TRAIT_AGILE" />
             <grant type="Racial Trait" id="ID_DARKSUN_RACIAL_TRAIT_SKILL_VERSATILITY" />
             <grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_SENSES" />
+            <grant type="Racial Trait" id="ID_DARKSUN_RACIAL_TRAIT_DEFILED_SKIN" />
         </rules>
     </element>
 
