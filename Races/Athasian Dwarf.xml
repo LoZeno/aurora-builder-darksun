@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Dwarf (Athas)" type="Race" source="Dark Sun 5e Conversion" id="ID_RACE_VARIANT_DWARF_DARKSUN">
+        <description>
+            <p>Dwarves form a good part of the people encountered in the Tablelands. These strong and devoted beings live to fulfill their focus, a task they choose to devote their lives to. Stubborn and strong-minded, dwarves make good companions, even though their usual focused nature can tend to be bothersome.</p>
+            <h4>Personality:</h4>
+            <p class="indent">Dwarves prefer to occupy themselves with meaningful tasks, and often approach these tasks with an intensity rarely seen in other races. As such, dwarves make excellent laborers, and take great pride in their accomplishments. However, their stubbornness can lead to difficulties. Dwarves will sometimes fail to listen to reason, attempting to accomplish what are impossible tasks. Dwarves live for their focus. Dwarves that die while being unable to complete their focus return from the dead as banshees to haunt their unfinished work. A dwarf also rarely divulges his focus to anyone.</p>
+            <h4>Physical Description: </h4>
+            <p class="indent">The dwarves of the Tablelands stand 4 1/2 to 5 feet tall, with big muscular limbs and a strong build. They weigh on average 200 lbs. Dwarves are hairless, and find the very idea of hair repulsive. They have deeply tanned skin, and rarely decorate it with tattoos. Dwarves can live up to 250 years.</p>
+            <h4>Relations:</h4>
+            <p class="indent">A dwarfʹs relation with others is often a function of his focus. People that help the dwarf
+            accomplish his focus or share his goals are treated with respect and considered good companions. There is little room for compromise, though, with those that disagree with the dwarf’s focus. If they hinder the dwarf, they are considered obstacles that must be removed. Community is important to the dwarves. Dwarves have a very strong racial affinity. They rarely share their history with non–dwarves; it can take years for a stranger to gain enough trust to be admitted into a Dwarven family circle.</p>
+            <h4>Alignment:</h4>
+            <p class="indent">Dwarves tend towards a lawful alignment, with most members either good or neutral.
+            Their devotion to following the established hierarchy in their village means they tend to follow the rules, sometimes to the point of ridicule.</p>
+            <h4>Dwarven Lands:</h4>
+            <p class="indent">There are three main Dwarven settlements in the Tablelands: Kled, located near the city‐state of Tyr, and the twin villages of North and South Ledopolus located in the southwestern edge of the Tablelands. Some Dwarven communities have developed in the city‐states and in some small villages, while other dwarves have taken up residence with the slave tribes of the wastes.</p>
+            <h4>Magic:</h4>
+            <p class="indent">Like most peoples, dwarves have an aversion to wizardly magic, and they are the least amenable to changing their minds about anything. Dwarves rarely take to the wizardly arts; the few that do are usually shunned from respectable Dwarven society. Some dwarves will travel with a wizard who proves himself a worthy companion, but few dwarves will truly ever trust a wizard.</p>
+            <h4>Psionics:</h4>
+            <p class="indent">Like almost everything that they do, dwarves take to psionics with a vengeance. They make formidable egoists and nomads.</p>
+            <h4>Religion:</h4>
+            <p class="indent">Dwarven communities are ruled by their elders; dwarves are particularly devoted to their community leader, the Urhnomous. Dwarves typically worship elemental earth. Fire is sometimes worshiped for its destructive power and water for its healing nature. Air’s intangibility and chaotic nature attracts few Dwarven worshippers. Dwarven druids are unusual, and tend to devote themselves to a particular area of guarded land.</p>
+            <h4>Language:</h4>
+            <p class="indent">Dwarves have a long and proud oral history. They have an old written language, but this is mostly used for writing histories. Dwarves will not teach their ancient language to outsiders, they prefer to keep that knowledge to themselves. The Dwarven language is deep and throaty, composed of many guttural sounds and harsh exclamations. Most non‐dwarves get raw throats if they try to speak Dwarven for more than a few hours.</p>
+            <h4>Names:</h4>
+            <p class="indent">A dwarf’s name is usually granted to him by his clan leader after he completes his first focus.</p>
+            <h4>Male Names:</h4>
+            <p class="indent">Baranus, Biirgaz, Bontar, Brul, Caelum, Caro, Daled, Drog, Fyra, Ghedran, Gralth, Gram, Jurgan, Lyanius, Murd, Nati, Portek.</p>
+            <h4>Female Names:</h4>
+            <p class="indent">Ardin, Erda, Ghava, Greshin, Gudak, Lazra, N’kadir, Palashi, Vashara.</p>
+            <h4>Adventurers:</h4>
+            <p class="indent">Dwarves adventure for different reasons. Sometimes they may adventure in order to learn about the Tablelands, although these curious adventurers tend to be young and brash. Many adventuring dwarves travel the Tablelands to complete their focus because sometimes a task may take them away from their communities. Some search for ancient Dwarven villages and the treasures they contain.</p>
+            <h4>Dwarf Society:</h4>
+            <p class="indent">No dwarf is more content than while working toward the resolution of some cause. This task, called a focus, is approached with single‐minded direction for the dwarf’s entire life, if need be, though most foci require considerably less time. Free dwarves form communities based on clans, and are much focused on family. Ties of blood are honoured and respected above all others, except the focus. Family honor is important to every dwarf, because an act that brings praise or shame in one generation is passed down to the family members of the next generation. There is no concept in the minds of dwarves of not following these family ties. Dwarven communities are found in many types of terrain, from mountains and deserts to near human cities. Most communities are small, rarely exceeding 300 members and are usually formed of extended families linked by a common ancestor. Community leaders are called Urhnomous (over‐leader). Each clan is lead by an uhrnius (leader). Most free dwarves earn their money through trade. Those that stand out in this category are Dwarven metal smiths and mercenaries. Most Athasians acknowledge Dwarven forged metal to be among the best. Some Dwarves even act as metal scavengers, seeking steel scraps where ever they can be found to sell to the smiths. Dwarven mercenaries are highly prized because once their loyalty is purchased it is never changed.</p>
+            <h4>Roleplaying Suggestions:</h4>
+            <p class="indent">Remember the intensity of your focus. Breaking or ignoring a focus has social, philosophical and spiritual repercussions. For someone to stand in the way of your focus is an assault on you. There is no greater satisfaction than fulfilling a difficult focus. Keep a serious, sober attitude nearly always. The only time you show your festive side is when you have recently fulfilled a focus, during the hours or days until you set a new focus. Only during these brief days of fulfillment, and only to other dwarves and your most trusted non–Dwarven friends, do you show your full joy and sense of humor. But these days are also a time of vulnerability, for until you set a new focus you lose all of your special focus– related bonuses.</p>
+            
+            <h4>DWARF TRAITS</h4>
+            <p class="indent">
+                <strong>
+                    <em>Ability Score Increase.</em>
+                </strong> Your Constitution score increases by 2, and your Strength score increases by 1.</p>
+            <p class="indent">
+                <strong>
+                    <em>Age.</em>
+                </strong> Dwarves mature at the same rate as humans, but they’re considered young until they reach the age of 50. The maximum age a dwarf can hope to live is 260</p>
+            <p class="indent">
+                <strong>
+                    <em>Size.</em>
+                </strong> Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.</p>
+            <p class="indent">
+                <strong>
+                    <em>Speed.</em>
+                </strong> Your base land speed is 25 feet. Your speed is not reduced by wearing heavy armor.</p>
+            <p class="indent">
+                <strong>
+                    <em>Darkvision.</em>
+                </strong> You can see in the dark up to 60 feet. Darkvision is black and white only, but it is otherwise like normal sight, and Dwarves can function fine with no light at all.</p>
+            <p class="indent">
+                <strong>
+                    <em>Dwarven Resilience.</em>
+                </strong> You have advantage on saving throws against poison, and you have resistance to poison damage.</p>
+            <p class="indent">
+                <strong>
+                    <em>Weapon Familiarity.</em>
+                </strong> You have proficiency with the maul.</p>
+            <p class="indent">
+                <strong>
+                    <em>Tool Proficiency.</em>
+                </strong> You gain proficiency with the artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.</p>
+            <p class="indent">
+                <strong>
+                    <em>Focus:</em>
+                </strong> You gain a +1 bonus on all checks directly related to your focus. This includes a skill bonus, an attack bonus, a damage bonus, or a saving throw bonus, or even a bonus to manifestation or spell save DCs.</p>
+            <p class="indent">
+                <strong>
+                    <em>Defiled Skin.</em>
+                </strong> You have advantage on saving throws against spells and other magical effects.</p>
+            <p class="indent">
+                <strong>
+                    <em>Language.</em>
+                </strong> You can speak Common and Dwarvish. Dwarves dislike learning any languages besides those specifically necessary towards the completion of their focus, and will rarely speak Dwarvish in the presence of outsiders.</p>
+        </description>
+        <sheet alt="Dwarf" display="false" />
+        <setters>
+            <set name="names" type="male">Baranus, Biirgaz, Bontar, Brul, Caelum, Caro, Daled, Drog, Fyra, Ghedran, Gralth, Gram, Jurgan, Lyanius, Murd, Nati, Portek</set>
+            <set name="names" type="female">Ardin, Erda, Ghava, Greshin, Gudak, Lazra, N’kadir, Palashi, Vashara</set>
+            <set name="names-format">{{name}}</set>
+        </setters>
+        <rules>
+            <stat name="constitution" value="2" />
+            <stat name="strength" value="1" />
+            <stat name="innate speed" value="25" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_DWARVISH" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_RESILIENCE" />
+            <grant type="Racial Trait" id="ID_DARKSUN_RACIAL_TRAIT_DWARVEN_WEAPON_FAMILIARITY" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_TOOL_PROFICIENCY" />
+            <grant type="Racial Trait" id="ID_DARKSUN_RACIAL_TRAIT_FOCUS" />
+            <grant type="Racial Trait" id="ID_DARKSUN_RACIAL_TRAIT_DEFILED_SKIN" />
+        </rules>
+    </element>
+
+    <!-- Weapon Familiarity-->
+    <element name="Weapon Familiarity" type="Racial Trait" source="Dark Sun 5e Conversion" id="ID_DARKSUN_RACIAL_TRAIT_DWARVEN_WEAPON_FAMILIARITY">
+        <description>
+            <p>You have proficiency with the battleaxe, handaxe, light hammer, Warhammer and the maul.</p>
+        </description>
+        <sheet>
+            <description>You have proficiency with the battleaxe, handaxe, light hammer, Warhammer and the maul.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MAUL" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LIGHT_HAMMER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER" />
+        </rules>
+    </element>
+
+    <!-- Focus-->
+    <element name="Focus" type="Racial Trait" source="Dark Sun 5e Conversion" id="ID_DARKSUN_RACIAL_TRAIT_FOCUS">
+        <description>
+            <p>You gain a +1 bonus on all checks directly related to your focus. This includes a skill bonus, an attack bonus, a damage bonus, or a saving throw bonus, or even a bonus to manifestation or spell save DCs.</p>
+        </description>
+        <sheet>
+            <description>You gain a +1 bonus on all checks directly related to your focus. This includes a skill bonus, an attack bonus, a damage bonus, or a saving throw bonus, or even a bonus to manifestation or spell save DCs.</description>
+        </sheet>
+    </element>
+
+    <!-- Defiled Skin-->
+    <element name="Defiled Skin" type="Racial Trait" source="Dark Sun 5e Conversion" id="ID_DARKSUN_RACIAL_TRAIT_DEFILED_SKIN">
+        <description>
+            <p>You have advantage on saving throws against spells and other magical effects.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on saving throws against spells and other magical effects.</description>
+        </sheet>
+    </element>
+</elements>

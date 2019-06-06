@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Half-Elf (Athas)" type="Race" source="Dark Sun 5e Conversion" id="ID_RACE_VARIANT_HALF_ELF_DARKSUN">
+        <description>
+            <p>Unlike the parents of muls, elves and humans are often attracted to each other. Half‐elves are typically the unwanted product of a casual interracial encounter.</p>
+            <h4>Personality:</h4>
+            <p class="indent">Half‐elves are notorious loners. Many Athasians believe that half‐elves combine the worst traits of both races, but the most difficult aspect of half‐elves – their lack of self–confidence – comes not from their mixed origins but rather from a life of rejection from both parent races. Half‐elves try in vain to gain the respect of humans or elves.</p>
+            <h4>Physical Description: </h4>
+            <p class="indent">Averaging over six feet tall, half‐elves combine Elven dexterity with human resilience. Bulkier than elves, most half‐elves find it easier to pass themselves off as full humans than as full elves, but all have some features that hint at their Elven heritage.</p>
+            <h4>Relations:</h4>
+            <p class="indent">Humans distrust the half‐elf’s Elven nature, while elves have no use for their mixed–blood children; Elven traditions demand that such children be left behind. Human society gives half‐elves have a better chance of survival, but even less kindness. Half‐elves sometimes find friendship among muls or even Thri‐kreen. Half‐elves will cooperate with companions when necessary, but find it difficult to rely on anyone. Many half‐elves also turn to the animal world for company, training creatures to be servants and friends. Ironically, the survival skills and animal affinity that half‐elves developed to cope with isolation make them valuable beast handlers in human society.</p>
+            <h4>Alignment:</h4>
+            <p class="indent">Lawful and neutral half‐elves labor for acceptance from a parent race, while chaotic ones have given up on acceptance, electing instead to reject the society that has rejected them.</p>
+            <h4>HALF-Elven Lands:</h4>
+            <p class="indent">Despite their unique nature, half‐elves don’t form communities. The few half‐elves that settle down tend to live among humans who, unlike elves, at least find a use for them.</p>
+            <h4>Magic:</h4>
+            <p class="indent">Half‐elves often take up arcane studies, because it is a solitary calling.</p>
+            <h4>Psionics:</h4>
+            <p class="indent">Mastery of the Way often provides the independence and self–knowledge that half‐elves seek, and membership in a psionic academy can provide the half‐elf with acceptance.</p>
+            <h4>Religion:</h4>
+            <p class="indent">Because of their alienation from society and their affinity with animals, half‐elves make excellent druids. Some half‐elves turn their resentment of society into a profession and become sullen, bullying templars. As clerics, they are drawn to water’s healing influence.</p>
+            <h4>Language:</h4>
+            <p class="indent">Half‐elves all speak the Common tongue. A few half‐elves pick up the Elven language.</p>
+            <h4>Names:</h4>
+            <p class="indent">Half‐elves nearly always have human names. Unable to run as elves, they never receive Elven given names, or acceptance in an Elven tribe that they could use as surname.</p>
+            <h4>Adventurers:</h4>
+            <p class="indent">In a party, half‐elves often seem detached and aloof.</p>
+            <h4>Half-Elf Society:</h4>
+            <p class="indent">Unlike other races, half‐elves do not consider themselves a separate race, and, with very few exceptions, do not try to form half‐Elven communities. A half‐elf’s life is typically harder than either a human’s or an elf’s. It is difficult for half‐elves to find acceptance within either Elven or human society. Elves have not tolerance for those of mixed heritage, while humans do not trust their Elvish side. On the whole, humans are far more tolerant of half‐elves than elves, who often refuse to allow such children into their tribes, and are likely to cast the half‐elf’s mother from the tribe as well. Most half‐elves consider themselves outsiders to all society and tend to wander throughout their entire lives, going through life as an outsider and loner. Half‐elves are forced to develop a high level of self‐reliance. Most half‐elves take great pride in their self‐reliance, but this pride often makes half‐elves seem aloof to others. For many half‐elves the detachment is a defensive mechanism to deal with a desire for acceptance from either human or Elven society that will likely never come. Some half‐elves turn to the animal world for company, training creatures to be servants and friends.</p>
+            <h4>Roleplaying Suggestions:</h4>
+            <p class="indent">Desperate for the approval of either elves or humans, you are even more desperate to appear independent and self–reliant, to cover your desire for approval. As a result, you tend towards a feisty, insecure, sullen self–reliance, refusing favors. You take every opportunity to show off your skills in front of elves and humans, but if an elf or a human were to actually praise you, you would probably react awkwardly or suspiciously. From your childhood, your closest friendships have been with animals. Other half‐elves do not interest you. As time goes by and you learn from experience, you will find that you can also get along with other races neither human nor Elven: dwarves, muls, even thri‐kreen. You don’t feel the terrible need for their approval, and yet they give it more readily.</p>
+            
+            <h4>HALF-ELF TRAITS</h4>
+            <p class="indent">
+                <strong>
+                    <em>Ability Score Increase.</em>
+                </strong> Your Dexterity score increases by 2, and two other ability scores of your choice increase by 1.</p>
+            <p class="indent">
+                <strong>
+                    <em>Age.</em>
+                </strong> Half-Elves mature just like humans do, and can live as long as 130 years.</p>
+            <p class="indent">
+                <strong>
+                    <em>Size.</em>
+                </strong> Half-elves grow taller than humans but don’t reach the height of elves, averaging about 6½ feet. Your size is Medium.</p>
+            <p class="indent">
+                <strong>
+                    <em>Speed.</em>
+                </strong> Your base land speed is 30 feet.</p>
+            <p class="indent">
+                <strong>
+                    <em>Darkvision.</em>
+                </strong> You can see in the dark up to 60 feet. Darkvision is black and white only, but it is otherwise like normal sight, and Half-Elves can function fine with no light at all.</p>
+            <p class="indent">
+                <strong>
+                    <em>Of Two Worlds.</em>
+                </strong> You gain advantage on Deception checks made to deceive others about your race.</p>
+            <p class="indent">
+                <strong>
+                    <em>Skill Versatility.</em>
+                </strong>You gain proficiency in two skills of your choice.</p>
+            <p class="indent">
+                <strong>
+                    <em>Animal Wastelanders.</em>
+                </strong> You have advantage on Animal Handling checks and Survival checks related to Animal tracks.</p>
+            <p class="indent">
+                <strong>
+                    <em>Language.</em>
+                </strong> You can speak Common, Elven and one other language of your choice. Half-Elves often travel amongst the many different races of Athas, belonging to no one group, and therefore pick up the languages of the native inhabitants.</p>
+        </description>
+        <sheet alt="Half-Elf" display="false" />
+        <rules>
+            <stat name="dexterity" value="2" />
+            <select type="Racial Trait" name="Ability Score Increase (Half-Elf)" supports="Half-Elf" number="2" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_ELVISH" />
+            <select type="Language" name="Language (Half-Elf)" supports="Starting" />
+            <grant type="Racial Trait" id="ID_DARKSUN_RACIAL_TRAIT_OF_TWO_WORLDS" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SKILL_VERSATILITY" />
+        </rules>
+    </element>
+
+    <!-- Of Two World -->
+    <element name="Of Two World" type="Racial Trait" source="Dark Sun 5e Conversion" id="ID_DARKSUN_RACIAL_TRAIT_OF_TWO_WORLDS">
+        <description>
+            <p>You gain advantage on Deception checks made to deceive others about your race.</p>
+        </description>
+        <sheet>
+            <description>You gain advantage on Deception checks made to deceive others about your race.</description>
+        </sheet>
+    </element>
+
+    <!-- Animal Wastelander -->
+    <element name="Animal Wastelander" type="Racial Trait" source="Dark Sun 5e Conversion" id="ID_DARKSUN_RACIAL_TRAIT_ANIMAL_WASTELANDER">
+        <description>
+            <p>You have advantage on Animal Handling checks and Survival checks related to Animal tracks.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on Animal Handling checks and Survival checks related to Animal tracks.</description>
+        </sheet>
+    </element>
+</elements>

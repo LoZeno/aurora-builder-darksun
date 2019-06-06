@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+<!-- option to allow one psionic talent to each character  -->
+	<element name="Psionic Potential" type="Option" source="Dark Sun 5e Conversion" id="ID_DARKSUN_OPTION_TALENT">
+    <supports>Psionic Potential</supports>
+		<description>
+			<p>Every creature on Athas has a latent psionic potential.</p>
+			<p class="indent">As a consequence, Dark Sun characters can select one psionic talent or one extra feat from a special list. These special feats are called "psionic wild talents".</p>
+		</description>
+		<setters>
+			<set name="short">Select a psionic talent or feat</set>
+		</setters>
+		<sheet>
+			<description>Every Dark Sun character has a psionic talent or feat</description>
+		</sheet>
+        <rules>
+            <!-- <select type="Class Feature" name="Psionic Wild Talent" supports="ID_WOTC_UA20170313_MYSTIC_TALENTS_BLADE_MELD|ID_WOTC_UA20170313_MYSTIC_TALENTS_LIGHT_STEP" /> -->
+			<select type="Feat" name="Psionic Potential" supports="ID_DARKSUN_FEAT_WILDTALENT|ID_PHB_FEAT_ACTOR|ID_PHB_FEAT_ATHLETE|ID_PHB_FEAT_DUALWIELDER|ID_PHB_FEAT_ELEMENTAL_ADEPT|ID_PHB_FEAT_GRAPPLER|ID_PHB_FEAT_HEALER|ID_PHB_FEAT_INSPIRINGLEADER|ID_PHB_FEAT_KEENMIND|ID_PHB_FEAT_LUCKY|ID_PHB_FEAT_MAGESLAYER|ID_PHB_FEAT_OBSERVANT|ID_PHB_FEAT_SKILLED" />			
+        </rules>
+	</element>
+
+	<element name="Wild Psionic Talent" type="Feat" source="Dark Sun 5e Conversion" id="ID_DARKSUN_FEAT_WILDTALENT">
+		<description>
+			<p>Wild Psionic Talent</p>
+		</description>
+		<sheet>
+			<description>You were born with a minor Psionic power as a result of your latent psionic potential.</description>
+		</sheet>
+		<requirements>ID_DARKSUN_OPTION_TALENT</requirements>
+		<rules>
+			<select type="Class Feature" name="Wild Psionic Talent" supports="ID_WOTC_UA20170313_MYSTIC_TALENTS_BLADE_MELD|ID_WOTC_UA20170313_MYSTIC_TALENTS_DELUSION|ID_WOTC_UA20170313_MYSTIC_TALENTS_LIGHT_STEP|ID_WOTC_UA20170313_MYSTIC_TALENTS_MIND_MELD|ID_WOTC_UA20170313_MYSTIC_TALENTS_MYSTIC_HAND" />
+		</rules>
+	</element>
+</elements>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Elf (Athas)" type="Race" source="Dark Sun 5e Conversion" id="ID_RACE_VARIANT_ELF_DARKSUN">
+        <description>
+            <p>Athasʹ deserts, plains, steppes and badlands are home to the elves, a long–limbed race of trading, raiding, thieving sprinters. Running is the key to acceptance and respect among elves. Elves that are injured and cannot run are often left behind to die.</p>
+            <h4>Personality:</h4>
+            <p class="indent">Other races see elves as dishonest and lazy; generally a fair assessment. Elves idle around their time for days until compelled by need to exert themselves, but they can run for days without complaint. No self–respecting elf will consent to ride an animal. To do so is dishonorable; Elven custom dictates that individuals keep up or be left behind. Elves prefer to lead short, happy lives rather than long, boring ones. Seeing the future as a dark, deadly place, they prefer to live in “the now,” enjoying each fleeting moment. They thrive in open spaces, and tend to wither in captivity.</p>
+            <h4>Physical Description: </h4>
+            <p class="indent">Elves stand between 6 and 7 feet tall, with lean builds; angular, deeply etched features; and no facial hair. They dress in garb designed to protect from the desert and elements.</p>
+            <h4>Relations:</h4>
+            <p class="indent">Elves tend to keep to their own tribe and their proven friends unless they have some sort of an angle-something to sell, or some deception to pass off. Strangers are potential enemies waiting to take advantage of them, so elves look for every opportunity to win the advantage. If an elf believes that a companion might make a worthy friend, the elf devises a series of “tests” of trust that allow the companion to prove that their friendship is “stronger than the bonds of death,” as elves say. Once a stranger has gained an elf’s trust, he is forever that elf’s friend. If this trust is ever betrayed, it is gone forever.</p>
+            <h4>Alignment:</h4>
+            <p class="indent">Elves tend towards chaos because of their love of freedom, variety and self–expression. With respect to good and evil, elves tend towards neutrality, although their behavior leans towards good – even self–sacrifice –– where the good of their tribe is at stake. Although they’ll steal everything in sight, elves are not murderous. They rarely attack anyone except those who threaten them or stand in their way.</p>
+            <h4>Elven Lands:</h4>
+            <p class="indent">Always at home when running in the wastes, elves often act as if all plains and badlands were Elven lands. However, since most elves are loath to settle or build, they can rarely enforce their claims. Elven tribes make a living either through herding, raiding or trading; most tribes have at one time or another plied their hand at all three of these occupations. A tribeʹs current occupation usually determines which lands they currently claim as their own. Elven herders claim grazing lands. Elven raiders claim lands crossed by trade routes. Elven traders claim no lands, but wander in search of bargains and loose purses.</p>
+            <h4>Magic:</h4>
+            <p class="indent">Of all Tableland races, elves have the greatest affinity towards and acceptance of arcane practices.</p>
+            <h4>Psionics:</h4>
+            <p class="indent">Persistence is not an Elven strong suit, so Elven will is often weaker than that of other races. A few elves study the Way to win one more advantage in battle and trade.</p>
+            <h4>Religion:</h4>
+            <p class="indent">Elves revere Coraanu Star Racer as the ideal “First Elf – the warrior thief” the embodiment of all that elves wish to be, basing their calendar on his life and honoring his myth with exquisite song, dance and celebration. Many elves worship the elements; particularly air, which they associate with freedom, swiftness and song. Elves also honor and swear by the moons, perhaps because low‐light vision turns moonlight into an Elven advantage.</p>
+            <h4>Language:</h4>
+            <p class="indent">Elves of Athas share a common language and can communicate easily with each other, although each tribe has its own distinct dialect. The Elven language is filled with short, clipped words, runs with a rapid staccato pace and is difficult for novices to pick up. Disdaining the slow tedious languages of other races, most elves condescend to learn the Common speech for trade. Elves that learn other tongues often hide their ability.</p>
+            <h4>Names:</h4>
+            <p class="indent">Whether slave or free, elves prefer to keep Elven names. Tribe members take the tribe name as surname. Elves treat the naming of young runners as a sacred responsibility, naming the children of the tribe after the first interesting thing that they do while learning to run. Elves believe with the appropriate name, a child can grow to greatness, but with the wrong name, the elf may vanish in the wastes. Sometimes a child’s name is changed because of an extraordinary deed performed during an elf’s rite of passage.</p>
+            <h4>Male Names:</h4>
+            <p class="indent">Botuu (Water Runner), Coraanu (First Elf, the Warrior Thief), Dukkoti (Wind Fighter), Haaku (Two Daggers), Lobuu (First Runner), Mutami (Laughs at Sun), Nuuko (Sky Hunter), Traako (Metal Stealer).</p>
+            <h4>Female Names:</h4>
+            <p class="indent">Alaa (Bird Chaser), Ekee (Wild Dancer), Guuta (Singing Sword), Hukaa (Fire Leaper), Ittee (Dancing Bow), Nuuta (Quiet Hunter), Utaa (Laughing Moon)</p>
+            <h4>Tribe (Clan) Names:</h4>
+            <p class="indent">Clearwater Tribe (Fireshaper, Graffyon, Graystar, Lightning, Onyx, Sandrunner, Seafoam, Silverleaf, Songweaver, Steeljaw, Wavedivers, Windriders clans); Night Runner Tribe (Dark Moons, Full Moons, Half Moons, Lone Moons, New Moons, Quarter Moons clans); Shadow Tribe; Silt Stalker Tribe (Fire Bow, Fire Dagger, Fire Sword clans); Silver Hand Tribe; Sky Singer Tribe (Dawnchaser, Dayjumper, Twilightcatcher clans); Swiftwing Tribe; Water Hunter Tribe (Raindancer, Poolrunner, Lakesinger clans); Wind Dancer Tribe (Airhunter, Breezechaser clans)</p>
+            <h4>Adventurers:</h4>
+            <p class="indent">Elves often take up adventuring out of wanderlust, but those that persist in adventuring generally do so out of desire for profit, glory, revenge, or out of loyalty to traveling companions who have won their friendship. Elves love to boast of their accomplishments or have their deeds woven into song. Elves often hoard keepsakes from a memorable raids; some quilt pieces of stolen clothing into their cloaks. Little pleases elves as much as to flaunt a stolen item in front of its original owner. Elven custom dictates that the victim should acknowledge the accomplishment by congratulating the thief on his possession of such an attractive item. Those who fail to show such gallantry are considered poor sports. Adventurers who keep their tribal membership should give their chief periodic choice of the treasure that they have won. Holding out on a chief suggests lack of loyalty to the tribe.</p>
+            <h4>Elf Society:</h4>
+            <p class="indent">Elves have an intense tribal unity that does not extend beyond their own tribe. Elves from other tribes are considered potential enemies as much as any other creature. Within a tribe all elves are considered equal with one exception, the chief. The chief rules for life and makes the major decisions concerning the tribe. The method of choosing the chief varies from tribe to tribe, with some electing the individual who demonstrates the most qualities of leadership while the leadership in other tribes is inherited by the descendants of the previous chief. Elves do not spend vast amounts of time huddled in conference or following their chief’s orders. Their love of freedom keeps elves from becoming embroiled in the complicated court intrigues that other races face. They prefer to engage in intrigues directed against outsiders. Only with considerable effort and intent can a stranger become accepted by an elf tribe or even an individual elf. The stranger must show bravery and a willingness to sacrifice for the elf to earn acceptance. Being an elf does not increase a stranger’s chances of being accepted by a tribe. When in the company of outsiders, elves create tests of trust and friendship constantly for their companions. This continues until either the companions fail a test, in which case they will never earn the elf’s trust, or they succeed in passing enough tests to convince the elf to accept them. Years of conditioning have instilled within all elves the ability to move quickly over sandy and rocky terrain and run for long distances. Because of this natural maneuverability, elves spurn the riding of beasts for transportation. To do so is dishonorable. The Elven custom is keep up on one’s own or be left behind. Elven culture is rich and diverse, with elf song and dance being the most captivating in the Tablelands. They have turned celebrating into an art form. Elven songs and celebrations revolve around heroes of the tribe both ancient and current members. When a hunt goes well, a tribe showers the hunt master with praise. To celebrate a marriage, elves dance to the tales of long remembered lovers. Elves have the reputation as being lazy and deceitful, which in most cases is true. They desire to lead short, happy lives as opposed to long, sad ones. This leads the elves to focus on the present rather than plan for or expect consequences in the future. However, elves do work. Thought most elves provide for themselves and their tribe through herding, all elves have a propensity for raiding. Others become merchants and some thieves. In many cases others find it difficult to see the distinction. Though they detest hard labor, elves will spend hours negotiating with potential customers.</p>
+            <h4>Roleplaying Suggestions:</h4>
+            <p class="indent">Rely on Elven combat skills (distance, bows, and fighting by the light of the moons and stars). Use Elven noncombat skills and philosophy (running, escape from entangling situations or relationships). When someone professes to be your friend, dismiss them at first and then later, offer them a test of trust. Don’t tell them that it is a test, of course. Ask them to give you one of their prize possessions, for example, or leave your own valuables out and see if they take advantage of you. Pretend to sleep, and find out what they say about you when they think you are not listening. Some elves go as far as to allow themselves to be captured to see if the presumed friend will rescue them!</p>
+            
+            <h4>ELF TRAITS</h4>
+            <p class="indent">
+                <strong>
+                    <em>Ability Score Increase.</em>
+                </strong> Your Dexterity score increases by 2, and your Intelligence score increases by 1.</p>
+            <p class="indent">
+                <strong>
+                    <em>Age.</em>
+                </strong> Elves mature around 30 years old and live to a maximum age of 140 years.</p>
+            <p class="indent">
+                <strong>
+                    <em>Size.</em>
+                </strong> Elves stand between 6 to 7 feet tall. Your size is Medium.</p>
+            <p class="indent">
+                <strong>
+                    <em>Speed.</em>
+                </strong> Your base land speed is 40 feet.</p>
+            <p class="indent">
+                <strong>
+                    <em>Darkvision.</em>
+                </strong> You can see in the dark up to 60 feet. Darkvision is black and white only, but it is otherwise like normal sight, and Elves can function fine with no light at all.</p>
+            <p class="indent">
+                <strong>
+                    <em>Keen Senses.</em>
+                </strong> You are proficient in the Perception skill.</p>
+            <p class="indent">
+                <strong>
+                    <em>Hunter of the Wastes.</em>
+                </strong> You are proficient with all bows and the Elven longblade.</p>
+            <p class="indent">
+                <strong>
+                    <em>Athasian Resistance.</em>
+                </strong> You have a natural resistance to extreme temperatures and aren’t adversely affected by the heat of the day or the chill of the night. You treat extreme heat or cold as if it were only very hot or cold, but suffer normally from abysmal heat or from magical/supernatural heat and cold.</p>
+            <p class="indent">
+                <strong>
+                    <em>Elf Run: </em>
+                </strong> After a minute or warm-up and a Constitution check (DC 10), you can induce an elf run state. This state allows you to hustle for long distances as easily as a human can hustle. Each day that you continue the elf run, you must make additional Constitution checks to maintain the elf run state: A very easy check (DC 5) on the second day, an easy check (DC 10) on the third day, an average check (DC 15) on the fourth day, a difficult check (DC20) on the fifth day, and a very difficult check (DC 25) on the sixth day. Once you fail your constitution check, you lose the elf run benefits and suffer a level of exhaustion. After a full day’s rest, you may attempt again to induce an elf run state. With a group of elves, runners add their leaders Charisma bonus both to their movement rate and to any Constitution checks related to movement.</p>
+            <p class="indent">
+                <strong>
+                    <em>Defiled Skin.</em>
+                </strong> You have advantage on saving throws against spells and other magical effects.</p>
+            <p class="indent">
+                <strong>
+                    <em>Language.</em>
+                </strong> You can speak Common and Elven. Elves, much like Dwarves, disdain learning languages besides Elven except for trade, and if not engaged in trade, will hide their knowledge from other Elves.</p>
+        </description>
+        <sheet alt="Elf" display="false" />
+        <setters>
+            <set name="names" type="male">Botuu (Water Runner), Coraanu (First Elf / the Warrior Thief), Dukkoti (Wind Fighter), Haaku (Two Daggers), Lobuu (First Runner), Mutami (Laughs at Sun), Nuuko (Sky Hunter), Traako (Metal Stealer)</set>
+            <set name="names" type="female">Alaa (Bird Chaser), Ekee (Wild Dancer), Guuta (Singing Sword), Hukaa (Fire Leaper), Ittee (Dancing Bow), Nuuta (Quiet Hunter), Utaa (Laughing Moon)</set>
+            <set name="names" type="clan">Fireshaper, Graffyon, Graystar, Lightning, Onyx, Sandrunner, Seafoam, Silverleaf, Songweaver, Steeljaw, Wavedivers, Windriders, Dark Moons, Full Moons, Half Moons, Lone Moons, New Moons, Quarter Moons, Fire Bow, Fire Dagger, Fire Sword, Dawnchaser, Dayjumper, Twilightcatcher, Raindancer, Poolrunner, Lakesinger, Airhunter, Breezechaser</set>
+            <set name="names" type="tribe">Clearwater Tribe, Night Runner Tribe, Shadow Tribe, Silt Stalker Tribe, Silver Hand Tribe, Sky Singer Tribe, Swiftwing Tribe, Water Hunter Tribe, Wind Dancer Tribe</set>
+            <set name="names-format">{{name}} {{clan}} of the {{tribe}}</set>
+        </setters>
+        <rules>
+            <stat name="dexterity" value="2" />
+            <stat name="intelligence" value="1" />
+            <stat name="innate speed" value="40" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_ELVISH" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_SENSES" />
+            <grant type="Racial Trait" id="ID_DARKSUN_RACIAL_TRAIT_UNTER_OF_THE_WASTES" />
+            <grant type="Racial Trait" id="ID_DARKSUN_RACIAL_TRAIT_ATHASIAN_RESISTANCE" />
+            <grant type="Racial Trait" id="ID_DARKSUN_RACIAL_TRAIT_ELF_RUN" />
+            <grant type="Racial Trait" id="ID_DARKSUN_RACIAL_TRAIT_DEFILED_SKIN" />
+        </rules>
+    </element>
+
+    <!-- Hunter of the wastes -->
+    <element name="Hunter of the wastes" type="Racial Trait" source="Dark Sun 5e Conversion" id="ID_DARKSUN_RACIAL_TRAIT_UNTER_OF_THE_WASTES">
+        <description>
+            <p>You have proficiency with all bows and the Elven longblade.</p>
+        </description>
+        <sheet>
+            <description>You have proficiency with all bows and the Elven longblade.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_GROUP_BOWS" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_ELVEN_LONGBLADE" />
+        </rules>
+    </element>
+
+    <element name="Weapon Proficiency (Elven Longblade)" type="Proficiency" source="Dark Sun 5e Conversion" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_ELVEN_LONGBLADE">
+        <supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+    </element>
+
+    <!-- Elven longblade -->
+    <element name="Elven longblade" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_ELVEN_LONGBLADE">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+        <description>
+            <p>The traditional weapon of the Elves of Athas, it resembles a thin scimitar with the tip slightly curved.
+            </p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">15</set>
+            <set name="weight" lb="3">3 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="slashing">1d8</set>
+            <set name="versatile">1d10</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_ELVEN_LONGBLADE</set>
+        </setters>
+    </element>
+
+    <!-- Athasian Resistance -->
+    <element name="Athasian Resistance" type="Racial Trait" source="Dark Sun 5e Conversion" id="ID_DARKSUN_RACIAL_TRAIT_ATHASIAN_RESISTANCE">
+        <description>
+            <p>You have a natural resistance to extreme temperatures and aren’t adversely affected by the heat of the day or the chill of the night. You treat extreme heat or cold as if it were only very hot or cold, but suffer normally from abysmal heat or from magical/supernatural heat and cold.</p>
+        </description>
+        <sheet>
+            <description>You have a natural resistance to extreme temperatures and aren’t adversely affected by the heat of the day or the chill of the night. You treat extreme heat or cold as if it were only very hot or cold, but suffer normally from abysmal heat or from magical/supernatural heat and cold.</description>
+        </sheet>
+    </element>
+
+    <!-- Elf Run -->
+    <element name="Elf Run" type="Racial Trait" source="Dark Sun 5e Conversion" id="ID_DARKSUN_RACIAL_TRAIT_ELF_RUN">
+        <description>
+            <p>After a minute or warm-up and a Constitution check (DC 10), you can induce an elf run state. This state allows you to hustle for long distances as easily as a human can hustle. Each day that you continue the elf run, you must make additional Constitution checks to maintain the elf run state: A very easy check (DC 5) on the second day, an easy check (DC 10) on the third day, an average check (DC 15) on the fourth day, a difficult check (DC20) on the fifth day, and a very difficult check (DC 25) on the sixth day. Once you fail your constitution check, you lose the elf run benefits and suffer a level of exhaustion. After a full day’s rest, you may attempt again to induce an elf run state. With a group of elves, runners add their leaders Charisma bonus both to their movement rate and to any Constitution checks related to movement.</p>
+        </description>
+        <sheet>
+            <description>After a minute or warm-up and a Constitution check (DC 10), you can induce an elf run state. This state allows you to hustle for long distances as easily as a human can hustle. Each day that you continue the elf run, you must make additional Constitution checks to maintain the elf run state: A very easy check (DC 5) on the second day, an easy check (DC 10) on the third day, an average check (DC 15) on the fourth day, a difficult check (DC20) on the fifth day, and a very difficult check (DC 25) on the sixth day. Once you fail your constitution check, you lose the elf run benefits and suffer a level of exhaustion. After a full day’s rest, you may attempt again to induce an elf run state. With a group of elves, runners add their leaders Charisma bonus both to their movement rate and to any Constitution checks related to movement.</description>
+        </sheet>
+    </element>
+</elements>

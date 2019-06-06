@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Good (Mercurial alignment)" type="Alignment" source="Dark Sun 5e Conversion" id="ID_ALIGNMENT_DARKSUN_MERCURIAL_GOOD">
+        <supports />
+        <requirements>ID_DARKSUN_RACIAL_TRAIT_MERCURIAL_NATURE</requirements>
+        <description>
+            <p>Your fixed alignment axis is GOOD</p>
+        </description>
+        <setters>
+            <set name="Abbreviation">G</set>
+        </setters>
+        <rules />
+    </element>
+
+    <element name="Evil (Mercurial alignment)" type="Alignment" source="Dark Sun 5e Conversion" id="ID_ALIGNMENT_DARKSUN_MERCURIAL_EVIL">
+        <supports />
+        <requirements>ID_DARKSUN_RACIAL_TRAIT_MERCURIAL_NATURE</requirements>
+        <description>
+            <p>Your fixed alignment axis is EVIL</p>
+        </description>
+        <setters>
+            <set name="Abbreviation">E</set>
+        </setters>
+        <rules />
+    </element>
+
+    <element name="Lawful (Mercurial alignment)" type="Alignment" source="Dark Sun 5e Conversion" id="ID_ALIGNMENT_DARKSUN_MERCURIAL_LAWFUL">
+        <supports />
+        <requirements>ID_DARKSUN_RACIAL_TRAIT_MERCURIAL_NATURE</requirements>
+        <description>
+            <p>Your fixed alignment axis is LAWFUL</p>
+        </description>
+        <setters>
+            <set name="Abbreviation">L</set>
+        </setters>
+        <rules />
+    </element>
+
+    <element name="Chaotic (Mercurial alignment)" type="Alignment" source="Dark Sun 5e Conversion" id="ID_ALIGNMENT_DARKSUN_MERCURIAL_CHAOTIC">
+        <supports />
+        <requirements>ID_DARKSUN_RACIAL_TRAIT_MERCURIAL_NATURE</requirements>
+        <description>
+            <p>Your fixed alignment axis is CHAOTIC</p>
+        </description>
+        <setters>
+            <set name="Abbreviation">C</set>
+        </setters>
+        <rules />
+    </element>
+</elements>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Half-Giant" type="Race" source="Dark Sun 5e Conversion" id="ID_RACE_VARIANT_HALF_GIANT_DARKSUN">
+        <description>
+            <p>Legend has it that in ages past, a sorcerer‐queen used wizardry to beget a union of giant and human in order to create a race of powerful slaves. Whatever the truth of this legend, the half‐giant race has increased in number and is now fairly common especially in human controlled lands near the shore of the Sea of Silt. Half‐giants gain great strength, but dull wits, from their giant heritage, and are nearly as agile as their human forbearers.</p>
+            <h4>Personality:</h4>
+            <p class="indent">Because of their artificial origins, there is no half‐giant culture, tradition or homeland. Half‐giants readily imitate the customs and cultures of their neighbors. Half‐giants often display curiosity, a willingness to learn, and a general tendency towards kindness.</p>
+            <h4>Physical Description: </h4>
+            <p class="indent">Physically, the half‐giant is enormous, standing about 11 1/2 feet tall and weighing around 1,200 pounds. Half‐giants have thick hair, which is often kept braided (especially among females) or in a single tail that hangs behind the head and down the back. They dress in garb suitable to their occupation or environment. Half‐giants mature at about 24 years of age and can live about 170 years.</p>
+            <h4>Relations:</h4>
+            <p class="indent">The most powerful warriors on Athas, half‐giants seem content to dwell in humanity’s shadow. Half‐giants tend to be friendly and eager to please, adopting the lifestyles, skills, and values of those they admire. A half‐giant character who encounters a new situation looks around him to see what other people are doing. For example, a half‐giant character that happens upon a Dwarven stone quarry may watch the dwarves, and then start quarrying stone himself. If he can make a living at it, he will continue to quarry stone just like his neighbour dwarves do; otherwise he will move on to something else.</p>
+            <h4>Alignment:</h4>
+            <p class="indent">Half‐giants can switch attitudes very quickly, taking on new values to fit new situations. A half‐giant whose peaceful farming life is disrupted by marauders may soon adopt the morals of the renegades who sacked his village. A half‐giant’s nature is to switch his alignment aspect to imitate or otherwise react to a significant change around him.</p>
+            <h4>Half-Giant Lands:</h4>
+            <p class="indent">Half‐giants are most often found in the city‐states, serving as gladiators, laborers, soldiers, and guards. A few half‐giants collect into wilderness communities, often adopting the culture and customs of neighboring beings. The rare half‐giant community often attaches itself to a charismatic or successful leader (not necessarily a half‐giant) who demonstrates the tendencies they admire.</p>
+            <h4>Magic:</h4>
+            <p class="indent">If a half‐giant’s companions accept wizardry, then the half‐giant will also accept it. If a half‐giant’s companions hate wizardry, then the half‐giant will be as eager as anyone to join in stoning a wizard. Among sophisticated companions who accept preserving magic but despise defiling magic, all but the brightest half‐giants are likely to become confused, looking to their companions to see how they should react.</p>
+            <h4>Psionics:</h4>
+            <p class="indent">While a single–classed half‐giant psion is very rare, some half‐giants take the path of the psychic warrior, becoming killing machines that can take apart a mekillot barehanded.</p>
+            <h4>Religion:</h4>
+            <p class="indent">Half‐giants do not display any affinity for the worship of one element over another.</p>
+            <h4>Language:</h4>
+            <p class="indent">All half‐giants speak the Common speech of slaves. Whatever tongue she speaks, the half‐giant’s voice is pitched so low as to occasionally be difficult to understand.</p>
+            <h4>Names:</h4>
+            <p class="indent">Enslaved half‐giants often have human names, and because of this they vary greatly. Free half‐giants are likely to borrow the naming conventions of the race or people they are imitating at the time their child is born.</p>
+            <h4>Adventurers:</h4>
+            <p class="indent">Half‐giants are usually led to adventure by interesting companions of other races.</p>
+            <h4>Half-Giant Society:</h4>
+            <p class="indent">A relatively young race, half-giants possess very little cultural identity of their own. Instead they adopt the customs and beliefs of those other cultures in which they live. Because of this, half-giants routinely change their alignment to match those around them who most influence them. Half-giants can be found from one end of the Tablelands to the other, and often congregate in or near other population centers, absorbing the culture. Rarely do half-giants form communities of their own. Unlike some other bastard races, half-giants can reproduce. A single off-spring is produced from half-giant unions after almost a year of pregnancy. Though omnivorous, half-giants are tremendous consumers of water and food. They require twice the amount of food and water than humans. Clothing and equipment need twice the material to construct to fit a half-giant, leading to higher prices for half-giants. Half-giants tend to damage objects and buildings around them through accidents of size alone. Some considerate half-giants camp outside city walls to avoid causing too much damage, but the draw of a city’s culture and the below average intellect of most half-giants limits the number of half-giants who do so.</p>
+            <h4>Roleplaying Suggestions:</h4>
+            <p class="indent">Always remember how much bigger and heavier you are than everyone else. Take advantage of your height in combat, but remember the disadvantages. Between your size and your lesser wits (even if you are a relatively intelligent half-giant people will assume you to be dull), you find yourself an object of comic relief. You are used to being teased and will endure more witty remarks than most people, but when you have been pushed too far your personality can suddenly shift, and you can unleash astonishing violence on your tormentors and any who stand in your way. Less frequently, these shifts can happen to you without provocation―you just wake up with a different ethos and altered disposition. Remember you are influenced by powerful personalities, and can shift your personality and ethics. You tend to imitate the tactics, clothes and demeanor of your “little master.”</p>
+            
+            <h4>HALF-GIANT TRAITS</h4>
+            <p class="indent">
+                <strong>
+                    <em>Ability Score Increase.</em>
+                </strong> You gain a total increase of 4 between your Strength and Constitution scores. You may divide that increase between these two abilities as you see fit, though you must increase each ability score by at least 1.</p>
+            <p class="indent">
+                <strong>
+                    <em>Age.</em>
+                </strong> Half‐giants mature at about 24 years of age and can live about 170 years.</p>
+            <p class="indent">
+                <strong>
+                    <em>Size.</em>
+                </strong> Your size is Medium. When holding a versatile weapon with one hand, you gain the benefits of using the weapon two-handed. You may choose to use a weapon that has the two-handed weapon property, but not the oversized weapon property, in one hand. When you do so, its damage dice are reduced by one size. For example, a greataxe used in one hand would deal 1d10 damage. If the weapon normally deals 2d6 damage, its damage die also becomes 1d10. Additionally, you can use weapons with the “oversized” quality without taking disadvantage to attack rolls. You may not, however, wear any armor or clothing not designed for your size. Armor and clothing designed for half- giants costs twice the normal price and weighs twice as much as normal</p>
+            <p class="indent">
+                <strong>
+                    <em>Speed.</em>
+                </strong> Your base land speed is 30 feet.</p>
+            <p class="indent">
+                <strong>
+                    <em>Boulder Toss.</em>
+                </strong> You are considered to be proficient with any improvised thrown weapon.</p>
+            <p class="indent">
+                <strong>
+                    <em>Giant Among Men</em>
+                </strong> Unlike most characters, half-giants may raise their natural strength score to 22 instead of 20. Additionally, you have advantage when making Strength checks to break an object.</p>
+            <p class="indent">
+                <strong>
+                    <em>Giant Heritage.</em>
+                </strong>You are considered to be a giant.</p>
+            <p class="indent">
+                <strong>
+                    <em>Half-Giant Toughness: </em>
+                </strong> Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</p>
+            <p class="indent">
+                <strong>
+                    <em>Increased Carrying Capacity: </em>
+                </strong> Your carrying capacity is equal to double what a normal character with your Strength score can carry.</p>
+            <p class="indent">
+                <strong>
+                    <em>Large Appetite:</em>
+                </strong> You must eat and drink twice as much as the normal human or suffer the appropriate penalties.</p>
+            <p class="indent">
+                <strong>
+                    <em>Mercurial Nature: </em>
+                </strong> When choosing an alignment, you choose one fixed point of axis: lawful, chaotic, good, or evil. This element of your alignment never changes. After every long rest, however, you must change the other element of your alignment to one that matches some other member of your adventuring party. If everyone in your adventuring party shares the same element of their alignment, you may keep that element indefinitely or change your alignment to an element within one step of theirs after spending a day using their alignment, your choice. For example, a good half‐giant who happens to be neutral good on a particular day must become either lawful good or chaotic good, depending on what alignments the rest of his adventuring party possesses, after their next long rest. If the entire party is either lawful or neutral, the half-‐‐giant must change their alignment to lawful good. If everyone in the group is chaotic, the half‐giant must change their alignment to chaotic good, and can maintain that alignment indefinitely. The half giant may still, however, choose to become neutral good after any day spent as a chaotic good character. You should emphasize the slightly unhinged nature of a half-giant’s personality when role‐playing.</p>
+            <p class="indent">
+                <strong>
+                    <em>Language.</em>
+                </strong> You can speak one language of your choice. It is strongly advised that you choose Common.</p>
+        </description>
+        <sheet alt="Half-Giant" display="false" />
+        <rules>
+            <grant type="Racial Trait" id="ID_DARKSUN_RACIAL_TRAIT_MERCURIAL_NATURE" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALF_GIANT_SUBRACE" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALF_GIANT_SIZE" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALF_GIANT_BOULDER_TOSS" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALF_GIANT_GIANT_AMONG_MEN" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALF_GIANT_GIANT_HERITAGE" />
+            <!-- Half-Giant Toughness -->
+            <stat name="HP" value="1" level="1" />
+            <stat name="HP" value="1" level="2" />
+            <stat name="HP" value="1" level="3" />
+            <stat name="HP" value="1" level="4" />
+            <stat name="HP" value="1" level="5" />
+            <stat name="HP" value="1" level="6" />
+            <stat name="HP" value="1" level="7" />
+            <stat name="HP" value="1" level="8" />
+            <stat name="HP" value="1" level="9" />
+            <stat name="HP" value="1" level="10" />
+            <stat name="HP" value="1" level="11" />
+            <stat name="HP" value="1" level="12" />
+            <stat name="HP" value="1" level="13" />
+            <stat name="HP" value="1" level="14" />
+            <stat name="HP" value="1" level="15" />
+            <stat name="HP" value="1" level="16" />
+            <stat name="HP" value="1" level="17" />
+            <stat name="HP" value="1" level="18" />
+            <stat name="HP" value="1" level="19" />
+            <stat name="HP" value="1" level="20" />
+            <!-- Half-Giant Toughness -->
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALF_GIANT_CARRYING_CAPACITY" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALF_GIANT_LARGE_APPETITE" />
+            <select type="Language" name="Starting Language (Half-Giant)" supports="Starting" number="1" />
+            <select type="Ability Score Improvement" name="Giant Among Men" supports="ID_DARKSUN_GIANT_STRENGTH_NONE|ID_DARKSUN_GIANT_STRENGTH_21|ID_DARKSUN_GIANT_STRENGTH_22" />
+        </rules>
+    </element>
+
+    <element name="Half-Giant Subrace" type="Racial Trait" source="Dark Sun 5e Conversion" id="ID_RACIAL_TRAIT_HALF_GIANT_SUBRACE">
+        <requirements />
+        <description>
+            <p>Something</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Sub Race" name="Ability Score Increase" supports="Half-Giant" />
+        </rules>
+    </element>
+
+    <element name="Strength 1, Constitution 3" type="Sub Race" source="Dark Sun 5e Conversion" id="ID_DARKSUN_SUBRACE_HALF_GIANT_A">
+        <supports>Half-Giant</supports>
+        <description>
+            Something
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="1" />
+            <stat name="constitution" value="3" />
+        </rules>
+    </element>
+
+    <element name="Strength 2, Constitution 2" type="Sub Race" source="Dark Sun 5e Conversion" id="ID_DARKSUN_SUBRACE_HALF_GIANT_B">
+        <supports>Half-Giant</supports>
+        <description>
+        Something
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="2" />
+            <stat name="constitution" value="2" />
+        </rules>
+    </element>
+
+    <element name="Strength 3, Constitution 1" type="Sub Race" source="Dark Sun 5e Conversion" id="ID_DARKSUN_SUBRACE_HALF_GIANT_C">
+        <supports>Half-Giant</supports>
+        <description>
+            Something
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="3" />
+            <stat name="constitution" value="1" />
+        </rules>
+    </element>
+
+    <element name="Giant's Strength (None)" type="Ability Score Improvement" source="Dark Sun 5e Conversion" id="ID_DARKSUN_GIANT_STRENGTH_NONE">
+        <description>
+            <p>No special Strength Score</p>
+        </description>
+        <sheet display="false">
+            <description>No special Strength Score</description>
+        </sheet>
+        <rules>
+        </rules>
+    </element>
+
+    <element name="Giant's Strength (21)" type="Ability Score Improvement" source="Dark Sun 5e Conversion" id="ID_DARKSUN_GIANT_STRENGTH_21">
+        <description>
+            <p>Your Strength score is 21</p>
+        </description>
+        <sheet display="false">
+            <description>Your Strength score is 21</description>
+        </sheet>
+        <rules>
+            <stat name="strength:score:set" value="21" bonus="base" />
+        </rules>
+    </element>
+
+    <element name="Giant's Strength (22)" type="Ability Score Improvement" source="Dark Sun 5e Conversion" id="ID_DARKSUN_GIANT_STRENGTH_22">
+        <description>
+            <p>Your Strength score is 22</p>
+        </description>
+        <sheet display="false">
+            <description>Your Strength score is 22</description>
+        </sheet>
+        <rules>
+            <stat name="strength:score:set" value="22" bonus="base" />
+        </rules>
+    </element>
+
+    <element name="Mercurial Nature" type="Racial Trait" source="Dark Sun 5e Conversion" id="ID_DARKSUN_RACIAL_TRAIT_MERCURIAL_NATURE">
+        <description>
+            <p>When choosing an alignment, you choose one fixed point of axis: lawful, chaotic, good, or evil. This element of your alignment never changes. After every long rest, however, you must change the other element of your alignment to one that matches some other member of your adventuring party. If everyone in your adventuring party shares the same element of their alignment, you may keep that element indefinitely or change your alignment to an element within one step of theirs after spending a day using their alignment, your choice. For example, a good half‐giant who happens to be neutral good on a particular day must become either lawful good or chaotic good, depending on what alignments the rest of his adventuring party possesses, after their next long rest. If the entire party is either lawful or neutral, the half-‐‐giant must change their alignment to lawful good. If everyone in the group is chaotic, the half‐giant must change their alignment to chaotic good, and can maintain that alignment indefinitely. The half giant may still, however, choose to become neutral good after any day spent as a chaotic good character. You should emphasize the slightly unhinged nature of a half-giant’s personality when role‐playing.</p>
+        </description>
+        <sheet>
+            <description>When choosing an alignment, you choose one fixed point of axis: lawful, chaotic, good, or evil. This element of your alignment never changes. After every long rest, however, you must change the other element of your alignment to one that matches some other member of your adventuring party. If everyone in your adventuring party shares the same element of their alignment, you may keep that element indefinitely or change your alignment to an element within one step of theirs after spending a day using their alignment, your choice.</description>
+        </sheet>
+    </element>
+
+    <element name="Half-Giant Size" type="Racial Trait" source="Dark Sun 5e Conversion" id="ID_RACIAL_TRAIT_HALF_GIANT_SIZE">
+        <description>
+            <p>
+                When holding a versatile weapon with one hand, you gain the benefits of using the weapon two-handed. You may choose to use a weapon that has the two-handed weapon property, but not the oversized weapon property, in one hand. When you do so, its damage dice are reduced by one size. For example, a greataxe used in one hand would deal 1d10 damage. If the weapon normally deals 2d6 damage, its damage die also becomes 1d10. Additionally, you can use weapons with the “oversized” quality without taking disadvantage to attack rolls. You may not, however, wear any armor or clothing not designed for your size. Armor and clothing designed for half- giants costs twice the normal price and weighs twice as much as normal
+            </p>
+        </description>
+        <sheet>
+            <description>
+                When holding a versatile weapon with one hand, you gain the benefits of using the weapon two-handed. You may choose to use a weapon that has the two-handed weapon property, but not the oversized weapon property, in one hand. When you do so, its damage dice are reduced by one size. If the weapon normally deals 2d6 damage, its damage die also becomes 1d10. Additionally, you can use weapons with the “oversized” quality without taking disadvantage to attack rolls.You may not, however, wear any armor or clothing not designed for your size.
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Boulder Toss" type="Racial Trait" source="Dark Sun 5e Conversion" id="ID_RACIAL_TRAIT_HALF_GIANT_BOULDER_TOSS">
+        <description>
+            <p>
+                You are considered to be proficient with any improvised thrown weapon.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You are considered to be proficient with any improvised thrown weapon.
+            </description>
+        </sheet>
+    </element>
+    
+    <element name="Giant Among Men" type="Racial Trait" source="Dark Sun 5e Conversion" id="ID_RACIAL_TRAIT_HALF_GIANT_GIANT_AMONG_MEN">
+        <description>
+            <p>
+                Unlike most characters, half-giants may raise their natural strength score to 22 instead of 20. Additionally, you have advantage when making Strength checks to break an object.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You may raise your natural strength score to 22 instead of 20. Additionally, you have advantage when making Strength checks to break an object.
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Giant Heritage" type="Racial Trait" source="Dark Sun 5e Conversion" id="ID_RACIAL_TRAIT_HALF_GIANT_GIANT_HERITAGE">
+        <description>
+            <p>
+                You are considered to be a giant.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You are considered to be a giant.
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Increased Carrying Capacity" type="Racial Trait" source="Dark Sun 5e Conversion" id="ID_RACIAL_TRAIT_HALF_GIANT_CARRYING_CAPACITY">
+        <description>
+            <p>
+                Your carrying capacity is equal to double what a normal character with your Strength score can carry.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                Your carrying capacity is equal to double what a normal character with your Strength score can carry.
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Large Appetite" type="Racial Trait" source="Dark Sun 5e Conversion" id="ID_RACIAL_TRAIT_HALF_GIANT_LARGE_APPETITE">
+        <description>
+            <p>
+                You must eat and drink twice as much as the normal human or suffer the appropriate penalties.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You must eat and drink twice as much as the normal human or suffer the appropriate penalties.
+            </description>
+        </sheet>
+    </element>
+</elements>
