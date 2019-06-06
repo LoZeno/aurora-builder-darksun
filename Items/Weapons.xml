@@ -17,4 +17,65 @@
             <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_ELVEN_LONGBLADE</set>
         </setters>
     </element>
+
+    <!-- Chatkcha -->
+    <element name="Chatkcha" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_CHATKCHA">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+        <description>
+            <p>
+            </p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="cp">20</set>
+            <set name="weight" lb="1">1 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="range">60/90</set>
+            <set name="damage" type="piercing">1d6</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CHATKCHA</set>
+        </setters>
+    </element>
+
+    <element name="Weapon Proficiency (Chatkcha)" type="Proficiency" source="Dark Sun 5e Conversion" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CHATKCHA">
+        <supports>Weapon, Martial, Ranged, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING</supports>
+    </element>
+
+    <!-- Gythka -->
+    <element name="Gythka" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_GYTHKA">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+        <description>
+            <p>
+            </p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="cp">60</set>
+            <set name="weight" lb="1">25 lb.</set>
+            <set name="slot">twohand</set>
+            <set name="damage" type="slashing">1d10</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GYTHKA</set>
+        </setters>
+    </element>
+
+    <element name="Weapon Proficiency (Gythka)" type="Proficiency" source="Dark Sun 5e Conversion" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GYTHKA">
+        <supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+    </element>
+
+    <!-- Obsidian Weapons -->
+    <element name="Weapon, Obsidian" type="Magic Item" source="Dark Sun 5e Conversion" id="ID_DARKSUN_OBSIDIAN_WEAPONS">
+        <description>
+            <p>Weapons made of Obsidian have a -1 to attack and damage</p>
+        </description>
+        <setters>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="cp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type" addition="any">Weapon</set>
+            <set name="rarity">Common</set>
+            <set name="enhancement">-1</set>
+            <set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+            <set name="name-format">Obsidian {{parent}}</set>
+        </setters>
+        <rules />
+    </element>
 </elements>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Thri-kreen" type="Language" source="Dark Sun 5e Conversion" id="ID_DARKSUN_LANGUAGE_THRI-KREEN">
+        <supports>Starting, ID_INTERNAL_SUPPORT_LANGUAGE_STARTING</supports>
+        <description>
+            <p>Typically spoken by the Thri-kreen.</p>
+        </description>
+        <setters>
+            <set name="Speakers">Thri-kreen</set>
+            <set name="Script">Thri-kreen</set>
+            <set name="Exotic">false</set>
+        </setters>
+    </element>
+</elements>
