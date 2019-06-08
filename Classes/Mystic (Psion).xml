@@ -91,11 +91,11 @@
 			<set name="hd">d8</set>
 		</setters>
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
-			<select type="Proficiency" name="Skill Proficiency (Mystic)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_RELIGION" number="2" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_DARKSUN_MULTICLASS_MYSTIC" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_DARKSUN_MULTICLASS_MYSTIC" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_DARKSUN_MULTICLASS_MYSTIC" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_DARKSUN_MULTICLASS_MYSTIC" />
+			<select type="Proficiency" name="Skill Proficiency (Mystic)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_RELIGION" number="2" requirements="!ID_DARKSUN_MULTICLASS_MYSTIC" />
 			<grant type="Class Feature" id="ID_WOTC_UA20170313_CLASS_FEATURE_MYSTIC_PSIONICS" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_UA20170313_CLASS_FEATURE_MYSTIC_MYSTIC_ORDER" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_UA20170313_CLASS_FEATURE_MYSTIC_MYSTICAL_RECOVERY" level="2" />
@@ -111,8 +111,13 @@
 			<prerequisite>Intelligence 13</prerequisite>
 			<requirements>[int:13]</requirements>
 			<setters>
-				<set name="multiclass proficiencies">—</set>
+				<set name="multiclass proficiencies">
+					One skill of your choice from the list of the Mystic's skills.
+				</set>
 			</setters>
+			<rules>
+				<select type="Proficiency" name="Skill Proficiency (Mystic)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_RELIGION" number="1" />
+			</rules>
 		</multiclass>
 	</element>
 </elements>
