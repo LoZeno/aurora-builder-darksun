@@ -491,4 +491,116 @@
 		</sheet>
 		<rules />
 	</element>
+
+	<element name="Academy of Alchemy" type="Archetype" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_ACADEMYOFALCHEMY">
+		<supports>Bard College</supports>
+		<description>
+			<p>Bards of the Academy of Alchemy are the only masters of their work in the wastes, able to craft healing concoctions and deadly poisons. Whether crushing leaves and needles to make a paste to seal his friend’s wound, or carefully cultivating deadly nightshade and stalking a tembo for his droppings, these bards use their gifts to great effect. When the night is ending and the harsh crimson sun of Athas is cresting its head above the horizon, a few less people may live that day.</p>
+			<div element="ID_DARKSUN_ARCHETYPE_FEATURE_BARD_POISONALCHEMICALCRAFTING" />
+			<div element="ID_DARKSUN_ARCHETYPE_FEATURE_BARD_MYSTERIOUSTRAVEL" />
+			<div element="ID_DARKSUN_ARCHETYPE_FEATURE_BARD_VENOMOUSCOERCION" />
+			<div element="ID_DARKSUN_ARCHETYPE_FEATURE_BARD_PEERLESSSKILL" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_BARD_POISONALCHEMICALCRAFTING" level="3" />
+			<grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_BARD_MYSTERIOUSTRAVEL" level="3" />
+			<grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_BARD_VENOMOUSCOERCION" level="6" />
+			<grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_BARD_PEERLESSSKILL" level="14" />
+		</rules>
+	</element>
+	<element name="Poison &amp; Alchemical Crafting" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_BARD_POISONALCHEMICALCRAFTING">
+		<description>
+			<p>When you join the Academy of Alchemy at 3rd level, you gain the ability to craft poisons and alchemical items using a mortar and pestle. Simply ask around the Bard’s Quarters of most cities in the Tablelands and they will point you to the necessary supplies.</p>
+		</description>
+		<sheet>
+			<description>You can craft poisons and alchemical items using a mortar and pestle at any Bard's quarters.</description>
+		</sheet>
+		<rules />
+	</element>
+	<element name="Mysterious Travel" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_BARD_MYSTERIOUSTRAVEL">
+		<description>
+			<p>Also at 3rd level, you know the hidden alleyways and passages in most cities, allowing you to procure your necessary supplies, silence nosey troublemakers, and travel quickly by the light of Ral &amp; Guthay. You gain advantage on Stealth checks made in cities at night.</p>
+		</description>
+		<sheet>
+			<description>You gain advantage on Stealth checks made in cities at night.</description>
+		</sheet>
+		<rules />
+	</element>
+	<element name="Venomous Coercion" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_BARD_VENOMOUSCOERCION">
+		<description>
+			<p>At 6th level, you gain advantage on Persuasion checks made to encourage someone to consume or otherwise unknowingly intake a poison. Advantage is not granted if the person is suspicious or knows that there is a poison.</p>
+		</description>
+		<sheet>
+			<description>You gain advantage on Persuasion checks made to encourage someone to consume or otherwise unknowingly intake a poison</description>
+		</sheet>
+		<rules />
+	</element>
+	<element name="Peerless Skill" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_BARD_PEERLESSSKILL">
+		<description>
+			<p>Starting at 14th level, when you make an ability check, you can expend one use of Bardic Inspiration. Roll a Bardic Inspiration die and add the number rolled to your ability check. You can choose to do so after you roil the die for the ability check, but before the DM tells you whether you succeed or fail.</p>
+		</description>
+		<sheet>
+			<description>When you make an ability check, you can expend one use of Bardic Inspiration. Roll a Bardic Inspiration die and add the number rolled to your ability check</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Academy of Survival" type="Archetype" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_ACADEMYOFSURVIVAL">
+		<supports>Bard College</supports>
+		<description>
+			<p>Bards of the Academy of Survival are daring skalds whose tales keep alive the hope of a better future, and thereby inspire a new generation of warriors. These bards gather in taverns or around great bonfires to sing the deeds of the mighty, both past and present. They travel the land to witness great events firsthand and to ensure that the memory of those events doesn’t pass from the world. With their songs, they inspire others to campaign and fight for a better future for all.</p>
+			<div element="ID_DARKSUN_ARCHETYPE_FEATURE_BARD_SURVIVAL_PROFICIENCIES" />
+			<div element="ID_DARKSUN_ARCHETYPE_FEATURE_BARD_COMBATINSPIRATION" />
+			<div element="ID_DARKSUN_ARCHETYPE_FEATURE_BARD_EXTRA_ATTACK" />
+			<div element="ID_DARKSUN_ARCHETYPE_FEATURE_BARD_BATTLE_PSIONICS" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_BARD_SURVIVAL_PROFICIENCIES" level="3" />
+			<grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_BARD_COMBATINSPIRATION" level="3" />
+			<grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_BARD_EXTRA_ATTACK" level="6" />
+			<grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_BARD_BATTLE_PSIONICS" level="14" />
+		</rules>
+	</element>
+	<element name="Bonus Proficiencies" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_BARD_SURVIVAL_PROFICIENCIES">
+		<description>
+			<p>When you join the Academy of Survival at 3rd level, you gain proficiency with medium armor, shields, the Survival skill and martial weapons.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+		</rules>
+	</element>
+	<element name="Combat Inspiration" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_BARD_COMBATINSPIRATION">
+		<description>
+			<p>Also at 3rd level, you learn to inspire others in battle. A creature that has a Bardic Inspiration die from you can roll that die and add the number rolled to a weapon damage roll it just made. Alternatively, when an attack roll is made against the creature, it can use its reaction to roll the Bardic Inspiration die and add the number rolled to its AC against that attack, after seeing the roll but before knowing whether it hits or misses.</p>
+		</description>
+		<sheet>
+			<description>A creature that has a Bardic Inspiration die from you can roll that die and add the number rolled to a weapon damage roll it just made. Alternatively, when an attack roll is made against the creature, it can use its reaction to roll the Bardic Inspiration die and add the number rolled to its AC against that attack, after seeing the roll but before knowing whether it hits or misses.</description>
+		</sheet>
+		<rules />
+	</element>
+	<element name="Extra Attack" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_BARD_EXTRA_ATTACK">
+		<description>
+			<p>Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+		</description>
+		<sheet>
+			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
+		</sheet>
+		<rules>
+			<stat name="extra attack:count" value="2" level="6" bonus="extra attack" />
+		</rules>
+	</element>
+	<element name="Battle Psionics" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_BARD_BATTLE_PSIONICS">
+		<description>
+			<p>At 14th level, you have mastered the art of weaving psionics and weapon use into a single harmonious act. When you use your action to manifest a psionic ability, you can make one weapon attack as a bonus action</p>
+		</description>
+		<sheet>
+			<description>When you use your action to manifest a psionic ability, you can make one weapon attack as a bonus action</description>
+		</sheet>
+	</element>
 </elements>
