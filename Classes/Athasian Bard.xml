@@ -53,6 +53,8 @@
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_FONT_OF_INSPIRATION" />
 			<div element="ID_DARKSUN_CLASS_FEATURE_BARD_MENTALRESISTANCE" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_COUNTERCHARM" />
+			<div element="ID_DARKSUN_CLASS_FEATURE_BARD_QUICKTHINKING" />
+			<div element="ID_DARKSUN_CLASS_FEATURE_BARD_IMPROVEDCAREFULPOISONER" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_SUPERIOR_INSPIRATION" />
 		</description>
 		<sheet display="false" />
@@ -88,6 +90,8 @@
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_FONT_OF_INSPIRATION" level="5" />
 			<grant type="Class Feature" id="ID_DARKSUN_CLASS_FEATURE_BARD_MENTALRESISTANCE" level="5" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_COUNTERCHARM" level="6" />
+			<grant type="Class Feature" id="ID_DARKSUN_CLASS_FEATURE_BARD_QUICKTHINKING" level="6" />
+			<grant type="Class Feature" id="ID_DARKSUN_CLASS_FEATURE_BARD_IMPROVEDCAREFULPOISONER" level="6" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_SUPERIOR_INSPIRATION" level="20" />
 		</rules>
 		<multiclass id="ID_DARKSUN_MULTICLASS_BARD">
@@ -234,7 +238,7 @@
 		</sheet>
 		<rules>
 			<stat name="agility" value="1" />
-			<stat name="ac:misc" bonus="agility" value="1" />
+			<stat name="ac:misc" bonus="agility" value="agility" />
 		</rules>
 	</element>
 	<element name="Agile" type="Class Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_CLASS_FEATURE_TRADESECRET_AGILE_8">
@@ -248,7 +252,6 @@
 		</sheet>
 		<rules>
 			<stat name="agility" value="1" />
-			<stat name="ac:misc" bonus="agility" value="2" />
 		</rules>
 	</element>
 	<element name="Agile" type="Class Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_CLASS_FEATURE_TRADESECRET_AGILE_12">
@@ -262,7 +265,6 @@
 		</sheet>
 		<rules>
 			<stat name="agility" value="1" />
-			<stat name="ac:misc" bonus="agility" value="3" />
 		</rules>
 	</element>
 	<element name="Agile" type="Class Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_CLASS_FEATURE_TRADESECRET_AGILE_16">
@@ -276,7 +278,6 @@
 		</sheet>
 		<rules>
 			<stat name="agility" value="1" />
-			<stat name="ac:misc" bonus="agility" value="4" />
 		</rules>
 	</element>
 	<element name="Agile" type="Class Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_CLASS_FEATURE_TRADESECRET_AGILE_20">
@@ -290,7 +291,6 @@
 		</sheet>
 		<rules>
 			<stat name="agility" value="1" />
-			<stat name="ac:misc" bonus="agility" value="5" />
 		</rules>
 	</element>
 
@@ -463,6 +463,31 @@
 		</description>
 		<sheet>
 			<description>you receive a +2 bonus to saves made against telepathic powers and enchantment/charm spells.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Quick Thinking" type="Class Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_CLASS_FEATURE_BARD_QUICKTHINKING">
+		<description>
+			<p>Bards often find themselves in a tight spot where they have to act quickly, whether it is to escape a templar patrol or strike first when in confrontation with a foe. At 6th level, you get a +1 bonus on initiative checks. This bonus increases by 1 at 11th and 16th level.</p>
+		</description>
+		<sheet>
+			<description>You have a +{{thinking}} bonus to initiative</description>
+		</sheet>
+		<rules>
+			<stat name="thinking" value="1" />
+			<stat name="thinking" value="1" requirements="[level:11]" />
+			<stat name="thinking" value="1" requirements="[level:16]" />
+			<stat name="initiative" value="thinking" />
+		</rules>
+	</element>
+
+	<element name="Improved Careful Poisoner" type="Class Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_CLASS_FEATURE_BARD_IMPROVEDCAREFULPOISONER">
+		<description>
+			<p>At 6th level, you can apply poison to a weapon as a free action without provoking attacks of opportunity.</p>
+		</description>
+		<sheet>
+			<description>you can apply poison to a weapon as a free action without provoking attacks of opportunity.</description>
 		</sheet>
 		<rules />
 	</element>
