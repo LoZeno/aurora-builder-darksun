@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Bard" type="Class" source="Dark Sun 5e Conversion" id="ID_DARKSUN_CLASS_BARD">
+	<supports />
+	<requirements />
+	<description>
+		<p>From the shadowy corners of Athas’ most disreputable places hails the bard. Like their counterparts in other fantasy worlds, Athasian bards are the unquestioned masters of oral tradition and forgotten lore, but rather than sharing their lore with whoever will listen, Athasian bards guard their secrets as jealously as the sorcerer‐kings harbour their water and iron. Athasian bards may sell information to the highest bidder; they peddle their services and the fruits of their knowledge, but trade secrets are what give bards an edge on the uninitiated. Bards would rather die than reveal these secrets. Meeting a bard can be an uneasy encounter, since one never knows how the bard has chosen to devote his multiple talents. Some bards master the art of making poisons, and survive by selling these poisons and their antidotes for those who have coin to pay. Some bards master the art of entertainment, using their performances to amuse nobles and templars and gain wealth. Some become assassins, mixing their knowledge of poison and stealth to become hired hands. Bards’ unique position in the Athasian society means they often overhear conversations between high‐ranking templars or nobles, or they may have treated an injured person that prefers to remain anonymous. Respectable folk despise them; the powerful fear them; but in the Athasian cities, everyone eventually comes to need their services.</p>
+		<h4>Making a Bard</h4>
+		<p>Bards receive numerous abilities they can use to survive. Many become masters of poisons, selling their illegal substances to anyone. Alone of the classes, bards hold the secrets of alchemy, creating fiery concoctions and mysterious mixes. Bards are master smugglers, selling spell components and other illegal items in the Bard’s Quarters of the city‐states. All bards, however, have some degree of entertainment skill. The songs of most bards can dazzle a crowd, or incite them to riot. Bards tend to learn to play a variety of instruments, or recite poetry or old legends by campfire. They can be acrobats, performing dazzling displays of physical prowess. They are often called upon as sources of information.</p>
+		<h4>Abilities:</h4>
+		<p>Charisma is the most important ability for a bard, because many of their abilities and skills are affected by it. A high Dexterity improves the bard’s defensive ability. Intelligence is also important because it bolsters the number of skills he can work with.</p>
+		<h4>Races:</h4>
+		<p>All humanoid races of Athas can become bards. The social stigma in certain regions may be higher than others, however. For example, the loremasters of the halflings of the Jagged Cliffs are highly regarded because of the ancient secrets and histories they preserve. But in the city‐states, where the Bard’s Quarters are notorious, being a bard is not usually a good thing. Elven tribes often have a bard, who keeps the history of the tribe alive, its conquests and defeats. Humans are often bards, becoming performers of great talent, or assassins of deadly skill and precision. Half‐elves, because of their lonely existence, often take to being bards. The prejudice they face at every stage in life can move some to become great poets or singers. Muls and half‐giants make poor bards; their talents are usually better served elsewhere than the stage or the shadows of alleys. As well, thri‐kreen are rarely seen as bards, relying instead upon their racial memory.</p>
+		<h4>Alignment:</h4>
+		<p>Most bards are chaotic, and operate alone, brokering information, arranging deals, smuggling illegal wares such as poisons, drugs, spell components and other things. Neutral bards are the ones most likely to operate in fellowships with adventurers, or entertain in troupes with other bards. The rare lawful bards can easily secure positions as councilors or agents for templars, and noble and merchant houses. Good bards are often entertainers or lorekeepers, putting their talents to benevolent use, sometimes diagnosing poisonings and selling the proper antidotes. Evil bards are often masters of poisons and alchemy, selling their wares to anyone with the ceramic to pay.</p>
+		<h4>Playing a Bard:</h4>
+		<p>You are a master of oral tradition and lore, and a true artist, but you share your talents only with those who can afford to pay you. You are an artist. You are the center of attention (whenever you want to), the person everyone wants to talk to, and the “face” of the party. Even if you aren’t the most attractive or charismatic member of your group, your unequalled skill at performance arts creates an irresistible appeal born of justified confidence. You are more than just light entertainment, though. Your target rarely survives the encounter if you don’t want him to. You might adventure because you desire entertainment. Someone with your smarts gets bored easily. Alternatively, you may have been blacklisted on your current location because of a “business transaction” gone wrong. You have to keep moving, and adventuring offers you a regular change of scenery. In any case, a life of adventure allows you to see new things, meet interesting people, and get some silvers in the process.</p>
+		<h4>Religion</h4>
+		<p>No central bardic organization exists, and more often than not bards have no particular penchant for religion. Some may worship the elements, fearing the power of the elemental forces, and most bards tend to relate to the Air ever‐changing nature, but bards that worship sorcerer‐ kings are rare. A lifestyle of breaking the rules of the city‐states does not lend one to worship the lawgivers.</p>
+		<h4>Other Classes: </h4>
+		<p>Bards face life as it comes, and usually hold no special grudge or awe for any one class. They usually approach other’s profession on the basis of how it can help them at the moment. Clerics and druids are respected for their devotion to a divine force, but usually not held in awe. Fighters, gladiators and rangers can be useful as sword–arms but are otherwise useless to the bard. Bards do not view wizards with the same aversion as others might view them, since bards sell them their components.</p>
+		<h4>Combat:</h4>
+		<p>A bard rarely seeks to initiate combat―instead he skulks about, looking for an opportunity to strike swiftly, using his poisons to their greatest advantage. You work best with teammates, maneuvering to get flanks and help bring down opponents with your various poisons. Use your bardic music to bolster your allies and distract your opponents while the real heavy hitters in your group mop them up.</p>
+		<h3>CLASS FEATURES</h3>
+		<p>As a bard, you gain the following class features.</p>
+		<h5>HIT POINTS</h5>
+		<p>
+			<span class="emphasis">Hit Dice:</span>1d8 per bard level<br /><span class="emphasis">Hit Points at 1st Level:</span>8 + your Constitution modifier<br /><span class="emphasis">Hit Points at Higher Levels:</span>1d8 (or 5) + your Constitution modifier per bard level after 1st<br /></p>
+		<h5>PROFICIENCIES</h5>
+		<p>
+			<span class="emphasis">Armor:</span>Light armor
+                        
+        <br /><span class="emphasis">Weapons:</span>Simple weapons, shortsword, bard’s friend, crossbow (any), garrote, greater blowgun, whip, widow’s knife
+                        
+        <br /><span class="emphasis">Tools:</span>Three from the following list: Any musical instrument, Alchemist’s supplies, Herbalism kit, Poisoner’s kit, Thieves’ tools
+                        
+        <br /></p>
+		<p>
+			<span class="emphasis">Saving Throws:</span>Intelligence, Constitution
+                        
+        <br /><span class="emphasis">Skills:</span>Choose any three
+                        
+        <br /></p>
+		<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_BARDIC_INSPIRATION" />
+		<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_SPELLCASTING_BARD" />
+		<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_JACK_OF_ALL_TRADES" />
+		<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_SONG_OF_REST" />
+		<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_BARD_COLLEGE" />
+		<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_EXPERTISE" />
+		<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_ABILITYSCOREIMPROVEMENT_BARD" />
+		<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_FONT_OF_INSPIRATION" />
+		<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_COUNTERCHARM" />
+		<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_MAGICAL_SECRETS" />
+		<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_SUPERIOR_INSPIRATION" />
+	</description>
+	<sheet display="false" />
+	<setters>
+		<set name="short">An inspiring magician whose power echoes the music of creation.</set>
+		<set name="hd">d8</set>
+		<set name="spellcaster">true</set>
+		<set name="spellcastingAbility">Charisma</set>
+	</setters>
+	<rules>
+		<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_DARKSUN_MULTICLASS_BARD" />
+		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_DARKSUN_MULTICLASS_BARD" />
+		<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_GROUP_CROSSBOWS" requirements="!ID_DARKSUN_MULTICLASS_BARD" />
+		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BARDSFRIEND" requirements="!ID_DARKSUN_MULTICLASS_BARD" />
+		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BARDSGARROTE" requirements="!ID_DARKSUN_MULTICLASS_BARD" />
+		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" requirements="!ID_DARKSUN_MULTICLASS_BARD" />
+		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WHIP" requirements="!ID_DARKSUN_MULTICLASS_BARD" />
+		<select type="Proficiency" name="Tool Proficiency" supports="Tool" number="3" requirements="!ID_DARKSUN_MULTICLASS_BARD" />
+		<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_DARKSUN_MULTICLASS_BARD" />
+		<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_DARKSUN_MULTICLASS_BARD" />
+		<select type="Proficiency" name="Skill Proficiency (Bard)" supports="Skill" number="3" requirements="!ID_DARKSUN_MULTICLASS_BARD" />
+		<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_BARDIC_INSPIRATION" level="1" />
+		<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_SPELLCASTING_BARD" level="1" />
+		<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_JACK_OF_ALL_TRADES" level="2" />
+		<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_SONG_OF_REST" level="2" />
+		<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_BARD_COLLEGE" level="3" />
+		<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_EXPERTISE" level="3" />
+		<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_ABILITYSCOREIMPROVEMENT_BARD" level="4" />
+		<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_FONT_OF_INSPIRATION" level="5" />
+		<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_COUNTERCHARM" level="6" />
+		<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_MAGICAL_SECRETS" level="10" />
+		<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_SUPERIOR_INSPIRATION" level="20" />
+	</rules>
+	<multiclass id="ID_DARKSUN_MULTICLASS_BARD">
+		<prerequisite>Charisma 13</prerequisite>
+		<requirements>[cha:13]</requirements>
+		<setters>
+			<set name="multiclass proficiencies">Light armor, one skill of your choice, one tool of your choice</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+			<select type="Proficiency" name="Skill Proficiency (Bard of Athas)" supports="Skill" number="1" />
+			<select type="Proficiency" name="Musical Instrument (Bard)" supports="Musical Instrument" number="1" />
+		</rules>
+	</multiclass>
+</element>
+</elements>
