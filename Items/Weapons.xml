@@ -148,7 +148,7 @@
     <!-- Obsidian Weapons -->
     <element name="Weapon, Obsidian" type="Magic Item" source="Dark Sun 5e Conversion" id="ID_DARKSUN_OBSIDIAN_WEAPONS">
         <description>
-            <p>Weapons made of Obsidian have a -1 to attack and damage</p>
+            <p>Weapons made of Obsidian have a -1 to attack and damage and Break Probability 5</p>
         </description>
         <setters>
             <set name="category">Magic Weapons</set>
