@@ -3,7 +3,7 @@
     <info>
 		<name>Earth Domain</name>
 		<description>New Cleric domain for the D&amp;D 5e campaign set in the DarkSun setting</description>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="Earth Domain.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Earth Domain.xml" />
 		</update>
 	</info>
@@ -15,7 +15,7 @@
             <div element="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_CHANNEL_DIVINITY_FELLOWSHIP_OF_STONE" />
             <div element="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_HIBERNATION_OF_EARTH" />
             <div element="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_ELEMENTAL_WRATH" />
-            <div element="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_WINGED_SHAPECHANGER" />
+            <div element="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_EARTH_ELEMENTAL" />
         </description>
         <sheet display="false">
             <description>The Death domain is concerned with the forces that cause death, as well as the negative energy that gives rise to undead creatures.</description>
@@ -26,7 +26,7 @@
             <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_CHANNEL_DIVINITY_FELLOWSHIP_OF_STONE" level="2" />
             <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_HIBERNATION_OF_EARTH" level="6" />
             <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_ELEMENTAL_WRATH" level="8" />
-            <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_WINGED_SHAPECHANGER" level="17" />
+            <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_EARTH_ELEMENTAL" level="17" />
         </rules>
     </element>
     <element name="Domain Spells" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_DOMAIN_SPELLS">
