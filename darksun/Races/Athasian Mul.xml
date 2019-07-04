@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+    <info>
+		<name>Mul (Athas)</name>
+		<description>Race for the D&amp;D 5e campaign set in the DarkSun setting</description>
+		<update version="0.0.1">
+			<file name="Athasian Mul.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Races/Athasian Mul.xml" />
+		</update>
+	</info>
     <element name="Mul (Athas)" type="Race" source="Dark Sun 5e Conversion" id="ID_RACE_MUL_DARKSUN">
         <description>
             <p>Born from the unlikely parentage of dwarves and humans, muls combine the height and adaptable nature of humans with the musculature and resilience of dwarves. Muls enjoy traits that are uniquely their own, such as their robust metabolism and almost inexhaustible capacity for work. The hybrid has disadvantages in a few areas as well: sterility, and the social repercussions of being created for a life of slavery. Humans and dwarves are not typically attracted to each other. The only reason that muls are so common in the Tablelands is because of their value as laborers and gladiators: slave–sellers force– breed humans and dwarves for profit. While mul– breeding practices are exorbitantly lucrative, they are often lethal to both the mother and the baby. Conception is difficult and impractical, often taking months to achieve. Even once conceived, the mul takes a full twelve months to carry to term; fatalities during this period are high. As likely as not, anxious overseers cut muls from the dying bodies of their mothers.</p>

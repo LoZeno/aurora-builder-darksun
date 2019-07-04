@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+    <info>
+		<name>Thri-Kreen (Athas)</name>
+		<description>Race for the D&amp;D 5e campaign set in the DarkSun setting</description>
+		<update version="0.0.1">
+			<file name="Athasian Thri-Kreen.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Races/Athasian Thri-Kreen.xml" />
+		</update>
+	</info>
     <element name="Thri-Kreen" type="Race" source="Dark Sun 5e Conversion" id="ID_RACE_THRI-KREEN_DARKSUN">
         <description>
             <p>Thri‐kreen are the strangest of the intelligent races of the Tablelands. These insectoid beings possess a mindset very different from any humanoid being encountered. They roam the wastes in packs, hunting for food day and night, since they require no sleep. Thri‐kreen are quick and agile and make fearsome fighters, feared throughout the wastes.</p>

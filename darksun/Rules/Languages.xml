@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+    <info>
+		<name>Languages</name>
+		<description>Languages for the D&amp;D 5e campaign set in the DarkSun setting</description>
+		<update version="0.0.1">
+			<file name="Languages.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Rules/Languages.xml" />
+		</update>
+	</info>
     <element name="Thri-kreen" type="Language" source="Dark Sun 5e Conversion" id="ID_DARKSUN_LANGUAGE_THRI-KREEN">
         <supports>Starting, ID_INTERNAL_SUPPORT_LANGUAGE_STARTING</supports>
         <description>

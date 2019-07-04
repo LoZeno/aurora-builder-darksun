@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+    <info>
+		<name>Half-Giant (Athas)</name>
+		<description>Race for the D&amp;D 5e campaign set in the DarkSun setting</description>
+		<update version="0.0.1">
+			<file name="Athasian Half-Giant.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Races/Athasian Half-Giant.xml" />
+		</update>
+	</info>
     <element name="Half-Giant" type="Race" source="Dark Sun 5e Conversion" id="ID_RACE_VARIANT_HALF_GIANT_DARKSUN">
         <description>
             <p>Legend has it that in ages past, a sorcerer‐queen used wizardry to beget a union of giant and human in order to create a race of powerful slaves. Whatever the truth of this legend, the half‐giant race has increased in number and is now fairly common especially in human controlled lands near the shore of the Sea of Silt. Half‐giants gain great strength, but dull wits, from their giant heritage, and are nearly as agile as their human forbearers.</p>

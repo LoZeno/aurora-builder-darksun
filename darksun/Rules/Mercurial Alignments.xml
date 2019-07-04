@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+    <info>
+		<name>Mercurial Alignment</name>
+		<description>Alignments rules for the Half-Giant race for the D&amp;D 5e campaign set in the DarkSun setting</description>
+		<update version="0.0.1">
+			<file name="Mercurial Alignments.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Rules/Mercurial Alignments.xml" />
+		</update>
+	</info>
+
     <element name="Good (Mercurial alignment)" type="Alignment" source="Dark Sun 5e Conversion" id="ID_ALIGNMENT_DARKSUN_MERCURIAL_GOOD">
         <supports />
         <requirements>ID_DARKSUN_RACIAL_TRAIT_MERCURIAL_NATURE</requirements>

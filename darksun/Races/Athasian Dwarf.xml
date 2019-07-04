@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+    <info>
+		<name>Dwarf (Athas)</name>
+		<description>Race for the D&amp;D 5e campaign set in the DarkSun setting</description>
+		<update version="0.0.1">
+			<file name="Athasian Dwarf.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Races/Athasian Dwarf.xml" />
+		</update>
+	</info>
     <element name="Dwarf (Athas)" type="Race" source="Dark Sun 5e Conversion" id="ID_RACE_VARIANT_DWARF_DARKSUN">
         <description>
             <p>Dwarves form a good part of the people encountered in the Tablelands. These strong and devoted beings live to fulfill their focus, a task they choose to devote their lives to. Stubborn and strong-minded, dwarves make good companions, even though their usual focused nature can tend to be bothersome.</p>

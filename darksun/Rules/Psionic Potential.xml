@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Psionic Potential</name>
+		<description>Special Psionic Wild Talent rule for the D&amp;D 5e campaign set in the DarkSun setting</description>
+		<update version="0.0.1">
+			<file name="Psionic Potential.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Rules/Psionic Potential.xml" />
+		</update>
+	</info>
 <!-- option to allow one psionic talent to each character  -->
 	<element name="Psionic Potential" type="Option" source="Dark Sun 5e Conversion" id="ID_DARKSUN_OPTION_TALENT">
     <supports>Psionic Potential</supports>
