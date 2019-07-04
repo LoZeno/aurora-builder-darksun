@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<name>DarkSun Conversion: Races</name>
+		<name>DarkSun Conversion: Rules</name>
 		<description>This material is intended for use with the DarkSun campaign for D&amp;D 5e by Luca Zenari</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="rules.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/rules.index" />
 		</update>
 	</info>
