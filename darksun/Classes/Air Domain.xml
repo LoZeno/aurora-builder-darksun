@@ -3,7 +3,7 @@
     <info>
 		<name>Air Domain</name>
 		<description>New Cleric domain for the D&amp;D 5e campaign set in the DarkSun setting</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="Air Domain.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Air Domain.xml" />
 		</update>
 	</info>
@@ -19,7 +19,7 @@
             <div element="ID_DARKSUN_ARCHETYPE_FEATURE_AIR_DOMAIN_WINGED_SHAPECHANGER" />
         </description>
         <sheet display="false">
-            <description>The Death domain is concerned with the forces that cause death, as well as the negative energy that gives rise to undead creatures.</description>
+            <description>The Air domain is concerned with the elemental forces of air, and the creatures that dwell in the sky.</description>
         </sheet>
         <rules>
             <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_AIR_DOMAIN_DOMAIN_SPELLS" level="1" />
@@ -75,7 +75,7 @@
             </table>
         </description>
         <sheet display="false">
-            <description>You gain domain spells at the cleric levels listed in the Death Domain Spells table.</description>
+            <description>You gain domain spells at the cleric levels listed in the Air Domain Spells table.</description>
         </sheet>
         <rules>
             <grant type="Spell" id="ID_PHB_SPELL_FEATHER_FALL" level="1" spellcasting="Cleric" prepared="true" />
@@ -95,7 +95,7 @@
             <p>When the cleric chooses this domain at 1st level, he or she gains proficiency with ranged weapons.</p>
         </description>
         <sheet display="false">
-            <description>You gain proficiency with martial weapons.</description>
+            <description>You gain proficiency with ranged weapons.</description>
         </sheet>
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_RANGED_WEAPONS" />
@@ -132,7 +132,7 @@
     </element>
     <element name="Divine Strike" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_AIR_DOMAIN_DIVINE_STRIKE">
         <description>
-            <p>You gain the ability to infuse your ranged weapon strikes with elemental energy. Once on each of your turns when you hit a creature with a ranged weapon attack, you can cause the attack to deal an extra 1d8 sonic damage to the target. When you reach 14th level, the extra damage increases to 2d8.</p>
+            <p>Starting at leel 8 You gain the ability to infuse your ranged weapon strikes with elemental energy. Once on each of your turns when you hit a creature with a ranged weapon attack, you can cause the attack to deal an extra 1d8 sonic damage to the target. When you reach 14th level, the extra damage increases to 2d8.</p>
         </description>
         <sheet alt="Divine Strike">
             <description>Once on each of your turns when you hit a creature with a ranged weapon attack, you can cause the attack to deal an extra 1d8 sonic damage to the target.</description>
@@ -141,7 +141,7 @@
     </element>
     <element name="Winged Shapechanger" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_AIR_DOMAIN_WINGED_SHAPECHANGER">
         <description>
-            <p>Once per short or long rest, you can transform into a winged creature of CR rating 3 or lower using one action.</p>
+            <p>Starting at level 17, Once per short or long rest, you can transform into a winged creature of CR rating 3 or lower using one action.</p>
         </description>
         <sheet alt="Winged Shapechanger">
             <description>Once per short or long rest, you can transform into a winged creature of CR rating 3 or lower using one action.</description>

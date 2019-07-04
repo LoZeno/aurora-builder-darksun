@@ -3,7 +3,7 @@
 	<info>
 		<name>DarkSun Conversion: Classes</name>
 		<description>This material is intended for use with the DarkSun campaign for D&amp;D 5e by Luca Zenari</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="classes.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/classes.index" />
 		</update>
 	</info>
@@ -13,5 +13,6 @@
         <file name="Path of the Pit Fighter.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Path of the Pit Fighter.xml" />
         <!-- Cleric -->
         <file name="Air Domain.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Air Domain.xml" />
+        <file name="Earth Domain.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Earth Domain.xml" />
 	</files>
 </index>

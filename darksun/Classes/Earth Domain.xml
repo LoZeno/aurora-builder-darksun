@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+		<name>Earth Domain</name>
+		<description>New Cleric domain for the D&amp;D 5e campaign set in the DarkSun setting</description>
+		<update version="0.0.1">
+			<file name="Earth Domain.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Earth Domain.xml" />
+		</update>
+	</info>
+    <element name="Earth Domain" type="Archetype" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_EARTHDOMAIN">
+        <supports>Divine Domain</supports>
+        <description>
+            <div element="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_DOMAIN_SPELLS" />
+            <div element="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_BONUS_PROFICIENCY" />
+            <div element="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_CHANNEL_DIVINITY_FELLOWSHIP_OF_STONE" />
+            <div element="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_HIBERNATION_OF_EARTH" />
+            <div element="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_ELEMENTAL_WRATH" />
+            <div element="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_WINGED_SHAPECHANGER" />
+        </description>
+        <sheet display="false">
+            <description>The Death domain is concerned with the forces that cause death, as well as the negative energy that gives rise to undead creatures.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_DOMAIN_SPELLS" level="1" />
+            <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_BONUS_PROFICIENCY" level="1" />
+            <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_CHANNEL_DIVINITY_FELLOWSHIP_OF_STONE" level="2" />
+            <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_HIBERNATION_OF_EARTH" level="6" />
+            <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_ELEMENTAL_WRATH" level="8" />
+            <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_WINGED_SHAPECHANGER" level="17" />
+        </rules>
+    </element>
+    <element name="Domain Spells" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_DOMAIN_SPELLS">
+        <description>
+            <p>You gain domain spells at the cleric levels listed in the Earth Domain Spells table. See the Divine Domain class feature for how domain spells work.</p>
+            <h6>Earth Domain Spells</h6>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Cleric Level</td>
+                        <td>Spells</td>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Cantrip</td>
+                    <td>
+                        <em>Mending</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1st</td>
+                    <td>
+                        <em>Arms of Hadar*, Wrathful Smite</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3rd</td>
+                    <td>
+                        <em>Hold Person, Shatter</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5th</td>
+                    <td>
+                        <em>Elemental Weapon (Acid), Meld Into Stone</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>7th</td>
+                    <td>
+                        <em>Conjure Minor Elemental(Earth), Stone Shape</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>9th</td>
+                    <td>
+                        <em>Conjure Elemental (Earth), Wall of Stone</em>
+                    </td>
+                </tr>
+            </table>
+        </description>
+        <sheet display="false">
+            <description>You gain domain spells at the cleric levels listed in the Earth Domain Spells table.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_MENDING" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_ARMS_OF_HADAR" level="1" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_WRATHFUL_SMITE" level="1" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" level="3" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_SHATTER" level="3" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_ELEMENTAL_WEAPON" level="5" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_MELD_INTO_STONE" level="5" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_CONJURE_MINOR_ELEMENTALS" level="7" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_STONE_SHAPE" level="7" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_CONJURE_ELEMENTAL" level="9" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_WALL_OF_STONE" level="9" spellcasting="Cleric" prepared="true" />
+        </rules>
+    </element>
+    <element name="Bonus Proficiency" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_BONUS_PROFICIENCY">
+        <description>
+            <p>When the cleric chooses this domain at 1st level, he or she gains proficiency with martial weapons and heavy armor.</p>
+        </description>
+        <sheet display="false">
+            <description>You gain proficiency with martial weapons.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+        </rules>
+    </element>
+    <element name="Channel Divinity: Fellowship of Stone" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_CHANNEL_DIVINITY_FELLOWSHIP_OF_STONE">
+        <description>
+            <p>This ability lasts for 1 minute. A number of small stones equal to your Cleric level will roll towards you or fly towards your enemies. Their attack bonus is equal to your own base attack bonus. This ability does not work if there are no stones present in the surrounding area. Each stone deals 1d8 bludgeoning damage.</p>
+        </description>
+        <sheet alt="Fellowship of Stone" action="Action" usage="Channel Divinity">
+            <description>You present your holy symbol, and a number of small stones equal to your Cleric level will roll towards you or fly towards your enemies. Their attack bonus is equal to your own base attack bonus. This ability does not work if there are no stones present in the surrounding area. Each stone deals 1d8 bludgeoning damage. This ability lasts for 1 minute.</description>
+        </sheet>
+    </element>
+    <element name="Hibernation of Earth" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_HIBERNATION_OF_EARTH">
+        <description>
+            <p>Starting at 6th level, you and up to 10 other creatures must be standing on dirt for this to work. You and the targets will sink down into the ground until you hit bedrock or when you go 10 feet plus a number of feet equal to your Cleric level (whichever comes first). During this time you and the targeted creatures need not breathe and will sleep peacefully. You can do this once per Long Rest. This ability lasts for a number of hours equal to your Cleric level.</p>
+        </description>
+        <sheet alt="Hibernation of Earth">
+            <description>You and up to 10 other creatures will sink down into the ground until you hit bedrock or when you go {{depth}} feet deep (whichever comes first). During this time you and the targeted creatures need not breathe and will sleep peacefully. You can do this once per Long Rest. This ability lasts for {{level:cleric}} hours.</description>
+        </sheet>
+        <rules>
+            <stat name="depth" value="10" />
+            <stat name="depth" value="level:cleric">
+        </rules>
+    </element>
+    <element name="Elemental Wrath" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_ELEMENTAL_WRATH">
+        <description>
+            <p>You have advantage when attacking Air, Fire, and Water Elementals. Once per long rest attacks that target other forms of Elementals deal maximum damage for one encounter. At 14th level you can use this ability twice per long rest.</p>
+        </description>
+        <sheet alt="Elemental Wrath">
+            <description>You have advantage when attacking Air, Fire, and Water Elementals. Once per long rest attacks that target other forms of Elementals deal maximum damage for one encounter.</description>
+            <description level="14">You have advantage when attacking Air, Fire, and Water Elementals. Twice per long rest attacks that target other forms of Elementals deal maximum damage for one encounter.</description>
+        </sheet>
+    </element>
+    <element name="Earth Elemental" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_EARTH_ELEMENTAL">
+        <description>
+            <p>Once per long rest you can become an Earth or Stone Elemental. This lasts for a number of rounds equal to your Cleric level.</p>
+        </description>
+        <sheet alt="Earth Elemental">
+            <description>Once per long rest you can become an Earth or Stone Elemental. This lasts for {{level:cleric}} rounds.</description>
+        </sheet>
+    </element>
+</elements>
