@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Athasian Bard</name>
+		<description>Variant Bard class for the D&amp;D 5e campaign set in the DarkSun setting</description>
+		<update version="0.0.1">
+			<file name="Athasian Bard.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Athasian Bard.xml" />
+		</update>
+	</info>
     <element name="Bard" type="Class" source="Dark Sun 5e Conversion" id="ID_DARKSUN_CLASS_BARD">
 		<supports />
 		<requirements />

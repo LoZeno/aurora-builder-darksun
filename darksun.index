@@ -3,7 +3,7 @@
 	<info>
 		<name>DarkSun</name>
 		<description>This material is intended for use with the DarkSun campaign for D&amp;D 5e by Luca Zenari</description>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="darksun.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun.index" />
 		</update>
 	</info>
@@ -16,8 +16,9 @@
 
 		<!-- DarkSun -->
 		<file name="sources.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/sources.xml" />
+		<file name="spells.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/spells.index" />
+		<file name="rules.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/rules.index" />
 		<file name="items.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/items.index" />
 		<file name="races.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/races.index" />
-		<file name="rules.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/rules.index" />
 	</files>
 </index>
