@@ -4,7 +4,7 @@
 		<name>Weapons</name>
 		<description>Weapons for the D&amp;D 5e campaign set in the DarkSun setting</description>
 		<update version="0.0.1">
-			<file name="Weapons.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/Items/Weapons.xml" />
+			<file name="Weapons.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Items/Weapons.xml" />
 		</update>
 	</info>
 
