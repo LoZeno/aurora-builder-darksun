@@ -3,7 +3,7 @@
     <info>
 		<name>Earth Domain</name>
 		<description>New Cleric domain for the D&amp;D 5e campaign set in the DarkSun setting</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="Earth Domain.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Earth Domain.xml" />
 		</update>
 	</info>
@@ -124,7 +124,7 @@
         </sheet>
         <rules>
             <stat name="depth" value="10" />
-            <stat name="depth" value="level:cleric">
+            <stat name="depth" value="level:cleric" />
         </rules>
     </element>
     <element name="Elemental Wrath" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_EARTH_DOMAIN_ELEMENTAL_WRATH">
