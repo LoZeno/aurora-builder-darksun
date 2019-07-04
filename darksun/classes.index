@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>DarkSun Conversion: Classes</name>
+		<description>This material is intended for use with the DarkSun campaign for D&amp;D 5e by Luca Zenari</description>
+		<update version="0.0.1">
+			<file name="classes.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/classes.index" />
+		</update>
+	</info>
+	<files>
+		<file name="Athasian Bard.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Athasian Bard.xml" />
+        <file name="Mystic (Psion).xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Mystic (Psion).xml" />
+        <file name="Path of the Pit Fighter.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Path of the Pit Fighter.xml" />
+        <!-- Cleric -->
+        <file name="Air Domain.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Air Domain.xml" />
+	</files>
+</index>

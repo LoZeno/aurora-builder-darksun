@@ -14,9 +14,9 @@
             <div element="ID_DARKSUN_ARCHETYPE_FEATURE_AIR_DOMAIN_BONUS_PROFICIENCY" />
             <div element="ID_DARKSUN_ARCHETYPE_FEATURE_AIR_DOMAIN_CHANNEL_DIVINITY_TURN_EARTH" />
             <div element="ID_DARKSUN_ARCHETYPE_FEATURE_AIR_DOMAIN_GUIDING_WINDS" />
-            <!-- <div element="ID_WOTC_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_INESCAPABLE_DESTRUCTION" />
-            <div element="ID_WOTC_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_DIVINE_STRIKE" />
-            <div element="ID_WOTC_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_IMPROVED_REAPER" /> -->
+            <div element="ID_DARKSUN_ARCHETYPE_FEATURE_AIR_DOMAIN_SPEAK_FLYING_CREATURES" />
+            <div element="ID_DARKSUN_ARCHETYPE_FEATURE_AIR_DOMAIN_DIVINE_STRIKE" />
+            <div element="ID_DARKSUN_ARCHETYPE_FEATURE_AIR_DOMAIN_WINGED_SHAPECHANGER" />
         </description>
         <sheet display="false">
             <description>The Death domain is concerned with the forces that cause death, as well as the negative energy that gives rise to undead creatures.</description>
@@ -26,9 +26,9 @@
             <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_AIR_DOMAIN_BONUS_PROFICIENCY" level="1" />
             <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_AIR_DOMAIN_CHANNEL_DIVINITY_TURN_EARTH" level="1" />
             <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_AIR_DOMAIN_GUIDING_WINDS" level="2" />
-            <!-- <grant type="Archetype Feature" id="ID_WOTC_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_INESCAPABLE_DESTRUCTION" level="6" />
-            <grant type="Archetype Feature" id="ID_WOTC_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_DIVINE_STRIKE" level="8" />
-            <grant type="Archetype Feature" id="ID_WOTC_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_IMPROVED_REAPER" level="17" /> -->
+            <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_AIR_DOMAIN_SPEAK_FLYING_CREATURES" level="6" />
+            <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_AIR_DOMAIN_DIVINE_STRIKE" level="8" />
+            <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_AIR_DOMAIN_WINGED_SHAPECHANGER" level="17" />
         </rules>
     </element>
     <element name="Domain Spells" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_AIR_DOMAIN_DOMAIN_SPELLS">
@@ -114,12 +114,37 @@
         If the creature’s true form is concealed by an illusion, shapeshifting, or other effect, that form is revealed while it is turned.</description>
         </sheet>
     </element>
-        <element name="Channel Divinity: Guiding Winds" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_AIR_DOMAIN_GUIDING_WINDS">
+    <element name="Channel Divinity: Guiding Winds" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_AIR_DOMAIN_GUIDING_WINDS">
         <description>
             <p>Starting at 2nd level, you can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.</p>
         </description>
         <sheet alt="Guiding Winds" usage="Channel Divinity">
             <description>When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll.</description>
+        </sheet>
+    </element>
+    <element name="Speak with Flying Creatures" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_AIR_DOMAIN_SPEAK_FLYING_CREATURES">
+        <description>
+            <p>Starting at 6th level, You can speak with all forms of flying creatures and monsters.</p>
+        </description>
+        <sheet alt="Speak with Flying Creatures">
+            <description>You can speak with all forms of flying creatures and monsters.</description>
+        </sheet>
+    </element>
+    <element name="Divine Strike" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_AIR_DOMAIN_DIVINE_STRIKE">
+        <description>
+            <p>You gain the ability to infuse your ranged weapon strikes with elemental energy. Once on each of your turns when you hit a creature with a ranged weapon attack, you can cause the attack to deal an extra 1d8 sonic damage to the target. When you reach 14th level, the extra damage increases to 2d8.</p>
+        </description>
+        <sheet alt="Divine Strike">
+            <description>Once on each of your turns when you hit a creature with a ranged weapon attack, you can cause the attack to deal an extra 1d8 sonic damage to the target.</description>
+            <description level="14">Once on each of your turns when you hit a creature with a ranged weapon attack, you can cause the attack to deal an extra 2d8 sonic damage to the target.</description>
+        </sheet>
+    </element>
+    <element name="Winged Shapechanger" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_AIR_DOMAIN_WINGED_SHAPECHANGER">
+        <description>
+            <p>Once per short or long rest, you can transform into a winged creature of CR rating 3 or lower using one action.</p>
+        </description>
+        <sheet alt="Winged Shapechanger">
+            <description>Once per short or long rest, you can transform into a winged creature of CR rating 3 or lower using one action.</description>
         </sheet>
     </element>
 </elements>

@@ -20,5 +20,6 @@
 		<file name="rules.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/rules.index" />
 		<file name="items.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/items.index" />
 		<file name="races.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/races.index" />
+		<file name="classes.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/classes.index" />
 	</files>
 </index>
