@@ -8,6 +8,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="Languages.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Spells/Psionic Disciplines.xml" />
+		<file name="Psionic Disciplines.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Spells/Psionic Disciplines.xml" />
 	</files>
 </index>
