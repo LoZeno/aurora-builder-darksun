@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>DarkSun Conversion</name>
-		<description>This material is intended for use with the DarkSun campaign for D&amp;D 5e by Luca Zenari</author>
+		<description>This material is intended for use with the DarkSun campaign for D&amp;D 5e by Luca Zenari</description>
 		<update version="0.0.1">
 			<file name="darksun-conversion.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun-conversion.index" />
 		</update>
