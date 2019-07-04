@@ -15,6 +15,7 @@
 		<file name="xanathars-guide-to-everything.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything.index" />
 
 		<!-- DarkSun -->
+		<file name="sources.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/sources.xml" />
 		<file name="items.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/items.index" />
 	</files>
 </index>
