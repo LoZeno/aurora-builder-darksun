@@ -3,7 +3,7 @@
     <info>
 		<name>Aarakocra (Athas)</name>
 		<description>Race for the D&amp;D 5e campaign set in the DarkSun setting</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="Athasian Aarakocra.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Races/Athasian Aarakocra.xml" />
 		</update>
 	</info>
@@ -115,7 +115,7 @@
             <grant type="Racial Trait" id="ID_DARKSUN_RACIAL_TRAIT_AARAKOCRA_FLIGHT" />
             <grant type="Racial Trait" id="ID_DARKSUN_RACIAL_TRAIT_AARAKOCRA_ADVANCED_FLIGHT" level="5"/>
             <grant type="Racial Trait" id="ID_DARKSUN_RACIAL_TRAIT_AARAKOCRA_DIVE_ATTACK" />
-            <grant type="Racial Trait" id="ID_WOTC_POTA_RACIAL_TRAIT_AARAKOCRA_TALONS" />
+            <grant type="Racial Trait" id="ID_DARKSUN_RACIAL_TRAIT_AARAKOCRA_TALONS" />
         </rules>
     </element>
 
@@ -178,4 +178,13 @@
             <description>You have advantage on saving throws against lightning and thunder damage, as well as against spells or powers that manipulate air, such as gust of wind, wind wall, or an air elemental's whirlwind power.</description>
         </sheet>
     </element>
+
+    <element name="Talons" type="Racial Trait" source="Dark Sun 5e Conversion" id="ID_DARKSUN_RACIAL_TRAIT_AARAKOCRA_TALONS">
+		<description>
+			<p>You are proficient with your unarmed strikes, which deal 1d4 slashing damage on a hit.</p>
+		</description>
+		<sheet>
+			<description>You are proficient with your unarmed strikes, which deal 1d4 slashing damage on a hit.</description>
+		</sheet>
+	</element>
 </elements>
