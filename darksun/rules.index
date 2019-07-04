@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>DarkSun Conversion: Races</name>
+		<description>This material is intended for use with the DarkSun campaign for D&amp;D 5e by Luca Zenari</description>
+		<update version="0.0.1">
+			<file name="rules.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/rules.index" />
+		</update>
+	</info>
+	<files>
+		<file name="Languages.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Rules/Languages.xml" />
+        <file name="Mercurial Alignments.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Rules/Mercurial Alignments.xml" />
+        <file name="Psionic Potential.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Rules/Psionic Potential.xml" />
+	</files>
+</index>

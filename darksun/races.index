@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>DarkSun Conversion: Races</name>
+		<description>This material is intended for use with the DarkSun campaign for D&amp;D 5e by Luca Zenari</description>
+		<update version="0.0.1">
+			<file name="races.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/races.index" />
+		</update>
+	</info>
+	<files>
+		<file name="Athasian Aarakocra.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Races/Athasian Aarakocra.xml" />
+        <file name="Athasian Dwarf.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Races/Athasian Dwarf.xml" />
+        <file name="Athasian Elf.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Races/Athasian Elf.xml" />
+        <file name="Athasian Half-Elf.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Races/Athasian Half-Elf.xml" />
+        <file name="Athasian Half-Giant.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Races/Athasian Half-Giant.xml" />
+        <file name="Athasian Halfling.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Races/Athasian Halfling.xml" />
+        <file name="Athasian Mul.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Races/Athasian Mul.xml" />
+        <file name="Athasian Thri-Kreen.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Races/Athasian Thri-Kreen.xml" />
+	</files>
+</index>

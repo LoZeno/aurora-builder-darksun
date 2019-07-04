@@ -17,5 +17,7 @@
 		<!-- DarkSun -->
 		<file name="sources.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/sources.xml" />
 		<file name="items.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/items.index" />
+		<file name="races.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/races.index" />
+		<file name="rules.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/rules.index" />
 	</files>
 </index>
