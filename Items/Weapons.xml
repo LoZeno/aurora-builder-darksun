@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+    <info>
+		<name>DarkSun Weapons</name>
+		<description>Weapons for the D&amp;D 5e campaign set in the DarkSun setting</description>
+		<update version="0.0.1">
+			<file name="Weapons.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/Items/Weapons.xml" />
+		</update>
+	</info>
+
     <!-- Elven longblade -->
     <element name="Elven longblade" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_ELVEN_LONGBLADE">
         <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
