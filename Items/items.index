@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>DarkSun Conversion: Items</name>
+		<description>This material is intended for use with the DarkSun campaign for D&amp;D 5e by Luca Zenari</author>
+		<update version="0.0.1">
+			<file name="items.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/Items/items.index" />
+		</update>
+	</info>
+	<files>
+		<file name="items.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/Items/Weapons.xml" />
+	</files>
+</index>
