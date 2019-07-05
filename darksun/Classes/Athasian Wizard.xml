@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Athasian Wizard</name>
+		<description>Variant Wizard class for the D&amp;D 5e campaign set in the DarkSun setting</description>
+		<update version="0.0.1">
+			<file name="Athasian Wizard.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Athasian Wizard.xml" />
+		</update>
+	</info>
+    <element name="Wizard" type="Class" source="Dark Sun 5e Conversion" id="ID_DARKSUN_CLASS_WIZARD">
+        <description>
+            <p>Clad in the silver robes that denote her station, an elf closes her eyes to shut out the distractions of the battlefield and begins her quiet chant. Fingers weaving in front of her, she completes her spell and launches a tiny bead of fire toward the enemy ranks, where it erupts into a conflagration that engulfs the soldiers.</p>
+            <p class="indent">Checking and rechecking his work, a human scribes an intricate magic circle in chalk on the bare stone floor, then sprinkles powdered iron along every line and graceful curve. When the circle is complete, he drones a long incantation. A hole opens in space inside the circle, bringing a whiff of brimstone from the otherworldly plane beyond.</p>
+            <p class="indent">Crouching on the floor in a dungeon intersection, a gnome tosses a handful of small bones inscribed with mystic symbols, muttering a few words of power over them. Closing his eyes to see the visions more clearly, he nods slowly, then opens his eyes and points down the passage to his left.</p>
+            <p class="indent">Wizards are supreme magic-users, defined and united as a class by the spells they cast. Drawing on the subtle weave of magic that permeates the cosmos, wizards cast spells of explosive fire, arcing lightning, subtle deception, and brute-force mind control. Their magic conjures monsters from other planes of existence, glimpses the future, or turns slain foes into zombies. Their mightiest spells change one substance into another, call meteors down from the sky, or open portals to other worlds.</p>
+            <h4>SCHOLARS OF THE ARCANE</h4>
+            <p>Wild and enigmatic, varied in form and function, the power of magic draws students who seek to master its mysteries. Some aspire to become like the gods, shaping reality itself. Though the casting of a typical spell requires merely the utterance of a few strange words, fleeting gestures, and sometimes a pinch or clump of exotic materials, these surface components barely hint at the expertise attained after years of apprenticeship and countless hours of study.</p>
+            <p class="indent">Wizards live and die by their spells. Everything else is secondary. They learn new spells as they experiment and grow in experience. They can also learn them from other wizards, from ancient tomes or inscriptions, and from ancient creatures (such as the fey) that are steeped in magic.</p>
+            <h4>THE LURE OF KNOWLEDGE</h4>
+            <p>Wizards’ lives are seldom mundane. The closest a wizard is likely to come to an ordinary life is working as a sage or lecturer in a library or university, teaching others the secrets of the multiverse. Other wizards sell their services as diviners, serve in military forces, or pursue lives of crime or domination.</p>
+            <p class="indent">But the lure of knowledge and power calls even the most unadventurous wizards out of the safety of their libraries and laboratories and into crumbling ruins and lost cities. Most wizards believe that their counterparts in ancient civilizations knew secrets of magic that have been lost to the ages, and discovering those secrets could unlock the path to a power greater than any magic available in the present age.</p>
+            <h4>CREATING A WIZARD </h4>
+            <p>Creating a wizard character demands a backstory dominated by at least one extraordinary event. How did your character first come into contact with magic? How did you discover you had an aptitude for it? Do you have a natural talent, or did you simply study hard and practice incessantly? Did you encounter a magical creature or an ancient tome that taught you the basics of magic?</p>
+            <p class="indent">What drew you forth from your life of study? Did your first taste of magical knowledge leave you hungry for more? Have you received word of a secret repository of knowledge not yet plundered by any other wizard? Perhaps you’re simply eager to put your newfound magical skills to the test in the face of danger.</p>
+            <h5>QUICK BUILD</h5>
+            <p>You can make a wizard quickly by following these suggestions. First, Intelligence should be your highest ability score, followed by Constitution or Dexterity. If you plan to join the School of Enchantment, make Charisma your next-best score. Second, choose the sage background. Third, choose the <i>mage hand</i>, <i>light</i>, and <i>ray of frost</i> cantrips, along with the following 1st-level spells for your spellbook: <i>burning hands,</i><i>charm person</i>, <i>feather fall</i>, <i>mage armor</i>, <i>magic missile</i>, and <i>sleep</i>.</p>
+            <h3>CLASS FEATURES</h3>
+            <p>As a wizard, you gain the following class features.</p>
+            <h5>HIT POINTS</h5>
+            <p>
+                <span class="emphasis">Hit Dice:</span>1d6 per wizard level<br /><span class="emphasis">Hit Points at 1st Level:</span>6 + your Constitution modifier<br /><span class="emphasis">Hit Points at Higher Levels:</span>1d6 (or 4) + your Constitution modifier per wizard level after 1st<br /></p>
+            <h5>PROFICIENCIES</h5>
+            <p>
+                <span class="emphasis">Armor:</span>None<br /><span class="emphasis">Weapons:</span>Daggers, darts, slings, quarterstaffs, light crossbows,<br /><span class="emphasis">Tools:</span>None<br /></p>
+            <p>
+                <span class="emphasis">Saving Throws:</span>Intelligence, Wisdom<br /><span class="emphasis">Skills:</span>Choose two from Arcana, Deception, History, Insight, Investigation, Medicine, and Religion<br /></p>
+            <h5>EQUIPMENT</h5>
+            <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+            <ul>
+                <li>(a) a quarterstaff or (b) a dagger</li>
+                <li>(a) a component pouch or (b) an arcane focus</li>
+                <li>(a) a light crossbow and 20 bolts or (b) any simple weapon</li>
+                <li>(a) a scholar’s pack or (b) an explorer’s pack</li>
+                <li>A spellbook</li>
+            </ul>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY" />
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_TRADITION" />
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ABILITYSCOREIMPROVEMENT_WIZARD" />
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELL_MASTERY" />
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS" />
+        </description>
+        <sheet display="false">
+            <description>A scholarly magic-user capable of manipulating the structures of reality.</description>
+        </sheet>
+        <setters>
+            <set name="short">A scholarly magic-user capable of manipulating the structures of reality.</set>
+            <set name="hd">d6</set>
+        </setters>
+        <rules>
+            <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD" />
+            <select type="Proficiency" name="Skill Proficiency (Wizard)" supports="Skill,Wizard" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD" />
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" level="1" />
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY" level="1" />
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_TRADITION" level="2" />
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ABILITYSCOREIMPROVEMENT_WIZARD" level="4" />
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELL_MASTERY" level="18" />
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS" level="20" />
+        </rules>
+        <multiclass id="ID_WOTC_PHB_MULTICLASS_WIZARD">
+            <prerequisite>Intelligence 13</prerequisite>
+            <requirements>[int:13]</requirements>
+            <setters>
+                <set name="multiclass proficiencies">—</set>
+            </setters>
+            <rules>
+                <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+            </rules>
+        </multiclass>
+    </element>
+    <element name="Deception" type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" source="Player’s Handbook">
+        <supports>Skill,Charisma,ID_PROFICIENCY_SKILL,ID_CLASS_ROGUE,Rogue,ID_CLASS_SORCERER,Sorcerer,ID_CLASS_BARD,Bard,ID_CLASS_WARLOCK,Warlock,ID_DARKSUN_CLASS_WIZARD,Wizard</supports>
+        <description>
+            <p>Your Charisma (Deception) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone’s suspicions with false assurances, or maintain a straight face while telling a blatant lie.</p>
+        </description>
+        <rules>
+            <stat name="deception:proficiency" value="proficiency" bonus="proficiency" />
+        </rules>
+    </element>
+    <element name="Arcane Defiling" type="Class Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_CLASS_FEATURE_WIZARD_ARCANE_DEFILING">
+        <description>
+            <p>All wizards, regardless of their path, must draw the energy of the land in order to cast spells. A wizard who does so without care defiles the land, withering plants and ruining soil. The power of the land however, can strengthen spells. Wizards who <em>do not</em> choose to preserve the life energy of the land when they cast a spell may add their spell casting ability modifier to any damage dealt by the spell, and the saving throw DC of any such spell is increased by one. When the land is defiled in this way, it leaves a ring of lifeless earth and ashen plant remains for a radius around the caster of 5ft times the level of the spell slot expended. Defiling with a cantrip leaves a barren area 5ft across, centered on the caster.</p>
+        </description>
+        <sheet>
+            <description>If you choose to defile the land when casting a spell you add +{{intelligence:modifier}} to the damage dealt by the spell, and the DC of the spell is increased by 1. You leave a ring of lifeless earth and ashen plant remains for a radius around you of 5 ft times the spell slot level (5ft for a cantrip).</description>
+        </sheet>
+    </element>
+</elements>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Path of the Defiler</name>
+		<description>Arcane Tradition for the Wizard class for the D&amp;D 5e campaign set in the DarkSun setting</description>
+		<update version="0.0.1">
+			<file name="Defiler.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Defiler.xml" />
+		</update>
+	</info>
+    <element name="Path of the Defiler" type="Archetype" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_WIZARD_DEFILER">
+        <supports>Arcane Tradition</supports>
+        <description>
+            <div element="ID_DARKSUN_ARCHETYPE_FEATURE_DEFILER_RAZE" />
+            <div element="ID_DARKSUN_ARCHETYPE_FEATURE_DEFILER_AGONIZING_RAZE" />
+            <div element="ID_DARKSUN_ARCHETYPE_FEATURE_DEFILER_BLOOD_MAGIC" />
+            <div element="ID_DARKSUN_ARCHETYPE_FEATURE_DEFILER_DESTRUCTIVE_RAZE" />
+        </description>
+        <sheet>
+            <description>Defilers have no remorse in using the power of the land to increase their spells power.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_DEFILER_RAZE" level="2" />
+            <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_DEFILER_AGONIZING_RAZE" level="6" />
+            <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_DEFILER_BLOOD_MAGIC" level="10" />
+            <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_DEFILER_DESTRUCTIVE_RAZE" level="14" />
+        </rules>
+    </element>
+    <element name="Raze" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_DEFILER_RAZE">
+        <description>
+            <p>Starting at 2nd level when you choose this path, when you are standing in an area with living plants, you can drain their energy to power your spells, treating them as if cast with a spell slot one level higher than you actually spent. When you use this feature, all plant life within 5ft of you turns black and withers and you cannot use this feature in an area that has been defiled already.</p>
+        </description>
+        <sheet alt="Raze">
+            <description>When you defile in an area with living plants, you treat your spell as if cast with a spell slot one level higher than you actually spent. All plant life within 5ft of you turns black and dies. You cannot use this feature in an area already defiled.</description>
+        </sheet>
+    </element>
+    <element name="Agonizing Raze" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_DEFILER_AGONIZING_RAZE">
+        <description>
+            <p>Starting at 6th level, when you use your Raze feature, you can also cause each creature within 5ft of to make a Constitution saving throw or take 1d6 necrotic damage. If you do, and at least one creature is damaged by this feature, you have advantage on the attack roll of the spell, if it requires one, or else targets of the spell you are casting have disadvantage on their saving throw.</p>
+        </description>
+        <sheet alt="Agonizing Raze">
+            <description>Using Raze now also causes each creature within 5ft of you to make a Constitution saving throw or take 1d6 necrotic damage. If at least one creature is damaged this way you either get advantage on the spell's attack roll or the targets get disadvantage on their saving throws.</description>
+        </sheet>
+    </element>
+    <element name="Blood Magic" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_DEFILER_BLOOD_MAGIC">
+        <description>
+            <p>Starting at 10th level, you may use your Raze feature without expending a spell slot. Instead of casting a spell, you regain 2d8 hit points, plus 1d6 hit points for each creature within 5 feet that fails the Constitution saving throw from your Agonizing Raze feature</p>
+        </description>
+        <sheet alt="Blood Magic">
+            <description>You can use Agonizing Raze without casting a spell or spending a spell slot, instead getting 2d8 hit points plus 1d6 hit points for every creature within 5ft of you that fails the Constitution saving throw.</description>
+        </sheet>
+    </element>
+    <element name="Destructive Raze" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_DEFILER_DESTRUCTIVE_RAZE">
+        <description>
+            <p>Beginning at 14th level, when you use your Raze feature, you can reroll any number of the spell's damage dice. You must use the second result even if it is lower.</p>
+        </description>
+        <sheet alt="Destructive Raze">
+            <description>When you use Raze you can reroll once any number of the spell's damage dice, but you must use the second result even if it is lower.</description>
+        </sheet>
+    </element>
+</elements>

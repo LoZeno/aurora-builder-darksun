@@ -3,7 +3,7 @@
 	<info>
 		<name>DarkSun Conversion: Classes</name>
 		<description>This material is intended for use with the DarkSun campaign for D&amp;D 5e by Luca Zenari</description>
-		<update version="0.0.10">
+		<update version="0.0.11">
 			<file name="classes.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/classes.index" />
 		</update>
 	</info>
@@ -22,5 +22,10 @@
 
 		<!-- Fighter -->
 		<file name="Honor Fighter.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Honor Fighter.xml" />
+
+		<!-- Wizard -->
+		<file name="Athasian Wizard.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Athasian Wizard.xml" />
+		<file name="Defiler.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Defiler.xml" />
+		<file name="Preserver.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Defiler.xml" />
 	</files>
 </index>
