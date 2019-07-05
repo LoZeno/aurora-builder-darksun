@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+		<name>Languages</name>
+		<description>Languages for the D&amp;D 5e campaign set in the DarkSun setting</description>
+		<update version="0.0.1">
+			<file name="Languages.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Rules/Languages.xml" />
+		</update>
+	</info>
+
+    <element name="Scribe" type="Background" source="Dark Sun 5e Conversion" id="ID_DARKSUN_BACKGROUND_SCRIBE">
+        <description>
+            <p>You were either born into slavery or captured at a very young age. Luckily for you, your fate wasn’t to end up in the obsidian mines, but instead, to live a life of relative luxury. You could be owned by a merchant house, the templarate or a noble house. Recently, you either escaped, were released, or your merchant passed away, granting you freedom.</p>
+            <ul class="unstyled">
+                <li>
+                    <strong>Skill Proficiencies:</strong>Persuasion, History</li>
+                <li>
+                    <strong>Languages:</strong>Read and write Cavilish and Common</li>
+                <li>
+                    <strong>Equipment:</strong>A bottle of lead ink, a quill, a merchant’s robes, and a belt pouch containing 15 Cp</li>
+            </ul>
+            <div element="ID_DARKSUN_BACKGROUND_FEATURE_EASILY_OVERLOOKED" />
+        </description>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" />
+            <select type="Language" name="Language (Scribe)" number="2" supports="Starting" />
+            <grant type="Background Feature" id="ID_DARKSUN_BACKGROUND_FEATURE_EASILY_OVERLOOKED" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+            <select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+        </rules>
+    </element>
+    <element name="Feature: Easily overlooked" type="Background Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_BACKGROUND_FEATURE_EASILY_OVERLOOKED">
+        <supports>Background Feature</supports>
+        <description>
+            <p>As a former slave, you are easily overlooked. You are able to slip into crowds without notice unless you draw attention to yourself. You’re also able to hide yourself in large groups of slaves with the masters being unaware and the slaves being disinclined to rat you out</p>
+        </description>
+        <sheet alt="Easily Overlooked" />
+    </element>
+
+    <element name="Gladiator" type="Background" source="Dark Sun 5e Conversion" id="ID_DARKSUN_BACKGROUND_GLADIATOR">
+        <description>
+            <p>You were either born into slavery or more likely captured at a very young age. You were sold into the Arena where you’ve learned your whole life how to fight. You have been trained to go up against large dangerous beasts from the wilds as well as other slaves or even criminals</p>
+            <ul class="unstyled">
+                <li>
+                    <strong>Skill Proficiencies:</strong>Intimidate, Perception</li>
+                <li>
+                    <strong>Weapon proficiencies:</strong>One martial weapon</li>
+                <li>
+                    <strong>Equipment:</strong>Tattered gladiators robes, a chitin chip, a bottle of Tembo blood, and a leather sack containing 15 Cp</li>
+            </ul>
+            <div element="ID_DARKSUN_BACKGROUND_FEATURE_CROWD_PLEASER" />
+        </description>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+            <select type="Proficiency" name="Weapon Proficiency" supports="Weapon,Martial" number="1" />
+            <grant type="Background Feature" id="ID_DARKSUN_BACKGROUND_FEATURE_CROWD_PLEASER" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+            <select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+        </rules>
+    </element>
+    <element name="Feature: Crowd pleaser" type="Background Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_BACKGROUND_FEATURE_CROWD_PLEASER">
+        <supports>Background Feature</supports>
+        <description>
+            <p>When in a settlement you are able to earn a small amount of coin using your fighting skills. You are either able to fight other creatures for sport or train others in how to fight. You gain enough coin to feed you and put you up somewhere marginally comfortable to sleep during the night. Additionally, soldiers and mercenaries might be willing to share information with you</p>
+        </description>
+        <sheet alt="Crowd pleaser" />
+    </element>
+
+    <element name="Untrained Excaped Slave" type="Background" source="Dark Sun 5e Conversion" id="ID_DARKSUN_BACKGROUND_UNTRAINED_ESCAPED_SLAVE">
+        <description>
+            <p>You were either a worker in the slave pits, worked in the fields or another labor intensive job. Your life has been hard and unforgiving with those all around you succumbing to disease and weakness while you struggled to survive until your recent escape or release.</p>
+            <ul class="unstyled">
+                <li>
+                    <strong>Skill Proficiencies:</strong>Athletics, Medicine</li>
+                <li>
+                    <strong>Tool proficiencies:</strong>One type of musical instrument</li>
+                <li>
+                    <strong>Equipment:</strong>Tattered robes, a chunk of obsidian, and a cloth bag containing 10 Cp</li>
+            </ul>
+            <div element="ID_DARKSUN_BACKGROUND_FEATURE_SLAVES_RUMOR" />
+        </description>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" />
+            <select type="Proficiency" name="Musical Instrument" supports="Musical Instrument" />
+            <grant type="Background Feature" id="ID_DARKSUN_BACKGROUND_FEATURE_SLAVES_RUMOR" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+            <select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+        </rules>
+    </element>
+    <element name="Feature: Slaves rumor" type="Background Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_BACKGROUND_FEATURE_SLAVES_RUMOR">
+        <supports>Background Feature</supports>
+        <description>
+            <p>You can gain valuable information by speaking with slaves, who will be more than willing to help you in exchange for their freedom.</p>
+        </description>
+        <sheet alt="Slaves rumor" />
+    </element>
+</elements>

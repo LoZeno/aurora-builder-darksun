@@ -3,10 +3,11 @@
     <info>
 		<name>Languages</name>
 		<description>Languages for the D&amp;D 5e campaign set in the DarkSun setting</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="Languages.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Rules/Languages.xml" />
 		</update>
 	</info>
+
     <element name="Thri-kreen" type="Language" source="Dark Sun 5e Conversion" id="ID_DARKSUN_LANGUAGE_THRI-KREEN">
         <supports>Starting, ID_INTERNAL_SUPPORT_LANGUAGE_STARTING</supports>
         <description>
@@ -18,4 +19,17 @@
             <set name="Exotic">false</set>
         </setters>
     </element>
+
+    <element name="Cavilish" type="Language" source="Dark Sun 5e Conversion" id="ID_DARKSUN_LANGUAGE_CAVILISH">
+        <supports>Starting, ID_INTERNAL_SUPPORT_LANGUAGE_STARTING</supports>
+        <description>
+            <p>Typically spoken by Merchants in the valley of Tyr.</p>
+        </description>
+        <setters>
+            <set name="Speakers">Merchants</set>
+            <set name="Script">Cavilish</set>
+            <set name="Exotic">false</set>
+        </setters>
+    </element>
+
 </elements>
