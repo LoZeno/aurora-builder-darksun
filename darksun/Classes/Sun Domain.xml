@@ -3,7 +3,7 @@
     <info>
 		<name>Sun Domain</name>
 		<description>New Cleric domain for the D&amp;D 5e campaign set in the DarkSun setting</description>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="Sun Domain.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Sun Domain.xml" />
 		</update>
 	</info>
@@ -108,13 +108,19 @@
     </element>
     <element name="Light's Revelation" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_LIGHTS_REVELATION">
         <description>
-            <p>Once per day as an action you can burn all creatures within 20 ft. who intentionally tell a lie (it must be a falsehood, not a half-truth or incomplete information), dealing 1d6 fire damage/3 cleric levels. This power lasts for 1 minute. Each creature can only be damaged once, regardless of how many lies they tell.</p>
+            <p>Once per day as an action you can burn all creatures within 20 ft. who intentionally tell a lie (it must be a falsehood, not a half-truth or incomplete information), dealing 1d6 fire damage plus 1d6 every 3 cleric levels. This power lasts for 1 minute. Each creature can only be damaged once, regardless of how many lies they tell.</p>
         </description>
         <sheet alt="Light's Revelation" action="Action">
             <description>Once per day as an action you can burn all creatures within 20 ft. who intentionally tell a lie (it must be a falsehood, not a half-truth or incomplete information), dealing {{revelation:damagedice}}d6 fire damage. This power lasts for 1 minute. Each creature can only be damaged once, regardless of how many lies they tell.</description>
         </sheet>
         <rules>
-            <stat name="revelation:damagedice" value="level:cleric/3" />
+            <stat name="revelation:damagedice" value="1" level="1"/>
+            <stat name="revelation:damagedice" value="1" level="4"/>
+            <stat name="revelation:damagedice" value="1" level="7"/>
+            <stat name="revelation:damagedice" value="1" level="10"/>
+            <stat name="revelation:damagedice" value="1" level="13"/>
+            <stat name="revelation:damagedice" value="1" level="16"/>
+            <stat name="revelation:damagedice" value="1" level="19"/>
         </rules>
     </element>
     <element name="Fiery Wrath" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_FIERY_WRATH">
