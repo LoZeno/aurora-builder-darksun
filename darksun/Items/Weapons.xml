@@ -3,7 +3,7 @@
     <info>
 		<name>Weapons</name>
 		<description>Weapons for the D&amp;D 5e campaign set in the DarkSun setting</description>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="Weapons.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Items/Weapons.xml" />
 		</update>
 	</info>
@@ -174,6 +174,94 @@
         <supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING</supports>
     </element>
 
+    <!-- Puchik -->
+    <element name="Puchik" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_PUCHIK">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+        <description>
+            <p>
+                A bone or obsidian punching dagger.
+            </p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="cp">4</set>
+            <set name="weight" lb="1">1 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="piercing">1d4</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_PUCHIK</set>
+        </setters>
+    </element>
+
+    <element name="Weapon Proficiency (Puchik)" type="Proficiency" source="Dark Sun 5e Conversion" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_PUCHIK">
+        <supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+    </element>
+
+    <!-- Quabone -->
+    <element name="Quabone" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_QUABONE">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING</supports>
+        <description>
+            <p>
+                Four jawbones are fastened around a central haft, at right angles to one another. The quabone is often used in the arenas. The wounds it inflicts are non‐ lethal, yet have entertainment value, as the quabone tends to open up many small cuts that bleed freely—for a brief time
+            </p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="cp">3</set>
+            <set name="weight" lb="4">4 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="piercing">1d6</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_QUABONE</set>
+        </setters>
+    </element>
+
+    <element name="Weapon Proficiency (Quabone)" type="Proficiency" source="Dark Sun 5e Conversion" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUABONE">
+        <supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING</supports>
+    </element>
+
+    <!-- Tonfa -->
+    <element name="Tonfa" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_TONFA">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING</supports>
+        <description>
+            <p>
+                The tonfa is a stick with a short handle, and is popular among street‐patrolling Nibenese templars and their guards. You can deal nonlethal damage with a tonfa without taking the usual –4 penalty.
+            </p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="cp">5</set>
+            <set name="weight" lb="2">2 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="piercing">1d4</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_TONFA</set>
+        </setters>
+    </element>
+
+    <element name="Weapon Proficiency (Tonfa)" type="Proficiency" source="Dark Sun 5e Conversion" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TONFA">
+        <supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING</supports>
+    </element>
+
+    <!-- Great Tonfa -->
+    <element name="Great Tonfa" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_GREAT_TONFA">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+        <description>
+            <p>
+                The tonfa is a stick with a short handle, and is popular among street‐patrolling Nibenese templars and their guards. You can deal nonlethal damage with a tonfa without taking the usual –4 penalty.
+            </p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="cp">10</set>
+            <set name="weight" lb="5">5 lb.</set>
+            <set name="slot">twohand</set>
+            <set name="damage" type="piercing">1d6</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GREAT_TONFA</set>
+        </setters>
+    </element>
+
+    <element name="Weapon Proficiency (Great Tonfa)" type="Proficiency" source="Dark Sun 5e Conversion" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREAT_TONFA">
+        <supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+    </element>
+
     <!-- Obsidian Weapons -->
     <element name="Weapon, Obsidian" type="Magic Item" source="Dark Sun 5e Conversion" id="ID_DARKSUN_OBSIDIAN_WEAPONS">
         <description>
@@ -188,6 +276,45 @@
             <set name="enhancement">-1</set>
             <set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
             <set name="name-format">Obsidian {{parent}}</set>
+            <set name="break-probability" value="5">5</set>
+        </setters>
+        <rules />
+    </element>
+
+    <!-- Bone Weapons -->
+    <element name="Weapon, Bone" type="Magic Item" source="Dark Sun 5e Conversion" id="ID_DARKSUN_BONE_WEAPONS">
+        <description>
+            <p>Weapons made of Bone have a -1 to attack and damage and Break Probability 10</p>
+        </description>
+        <setters>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="cp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type" addition="any">Weapon</set>
+            <set name="rarity">Common</set>
+            <set name="enhancement">-1</set>
+            <set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+            <set name="name-format">Bone {{parent}}</set>
+            <set name="break-probability" value="10">10</set>
+        </setters>
+        <rules />
+    </element>
+
+    <!-- Wood Weapons -->
+    <element name="Weapon, Wood" type="Magic Item" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WOOD_WEAPONS">
+        <description>
+            <p>Weapons made of Bone have a -2 to attack and damage and Break Probability 10</p>
+        </description>
+        <setters>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="cp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type" addition="any">Weapon</set>
+            <set name="rarity">Common</set>
+            <set name="enhancement">-2</set>
+            <set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+            <set name="name-format">Wood {{parent}}</set>
+            <set name="break-probability" value="10">10</set>
         </setters>
         <rules />
     </element>
