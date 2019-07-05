@@ -27,5 +27,8 @@
 		<file name="Athasian Wizard.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Athasian Wizard.xml" />
 		<file name="Defiler.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Defiler.xml" />
 		<file name="Preserver.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Preserver.xml" />
+
+		<!-- Warlock -->
+		<file name="Athasian Templar.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Athasian Templar.xml" />
 	</files>
 </index>
