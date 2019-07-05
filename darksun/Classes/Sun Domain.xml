@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+		<name>Sun Domain</name>
+		<description>New Cleric domain for the D&amp;D 5e campaign set in the DarkSun setting</description>
+		<update version="0.0.3">
+			<file name="Sun Domain.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Sun Domain.xml" />
+		</update>
+	</info>
+    <element name="Sun Domain" type="Archetype" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_SUNDOMAIN">
+        <supports>Divine Domain</supports>
+        <description>
+            <div>
+                <p><em>Blessingof Our Creator</em></p>
+                <p>At 1st level, choose one of the following Blessings: 
+                    <div element="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_SUN_FLARE" />
+                    <div element="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_LIGHTS_REVELATION" />
+                    <div element="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_FIERY_WRATH" />
+                    <div element="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_BURNING_EYES" />
+                </p>
+            </div>
+            <div element="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_DOMAIN_SPELLS" />
+            <div element="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_WARDING_FLARE" />
+            <div element="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_CHANNEL_DIVINITY_CRIMSON_SMITE" />
+            <div element="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_IMPROVED_FLARE" />
+            <div element="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_POTENT_SPELLCASTING" />
+            <div element="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_BREATHE_IN_VAIN" />
+        </description>
+        <sheet display="false">
+            <description>The Death domain is concerned with the forces that cause death, as well as the negative energy that gives rise to undead creatures.</description>
+        </sheet>
+        <rules>
+            <select type="Archetype Feature" name="Blessing of Our Creator" supports="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_SUN_FLARE|ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_LIGHTS_REVELATION|ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_FIERY_WRATH|ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_BURNING_EYES" level="1" />
+            <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_DOMAIN_SPELLS" level="1" />
+            <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_WARDING_FLARE" level="1" />
+            <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_CHANNEL_DIVINITY_CRIMSON_SMITE" level="2" />
+            <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_IMPROVED_FLARE" level="6" />
+            <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_POTENT_SPELLCASTING" level="8" />
+            <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_BREATHE_IN_VAIN" level="17" />
+        </rules>
+    </element>
+    <element name="Domain Spells" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_DOMAIN_SPELLS">
+        <description>
+            <p>You gain domain spells at the cleric levels listed in the Sun Domain Spells table. See the Divine Domain class feature for how domain spells work.</p>
+            <h6>Sun Domain Spells</h6>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Cleric Level</td>
+                        <td>Spells</td>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>1st</td>
+                    <td>
+                        <em>Burning Hands, Faerie Fire</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3rd</td>
+                    <td>
+                        <em>Flaming Sphere, Scorching Ray</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5th</td>
+                    <td>
+                        <em>Daylight, Fireball</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>7th</td>
+                    <td>
+                        <em>Guardian of Faith*, Wall of Fire</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>9th</td>
+                    <td>
+                        <em>Flame Strike, Scrying</em>
+                    </td>
+                </tr>
+            </table>
+        </description>
+        <sheet display="false">
+            <description>You gain domain spells at the cleric levels listed in the Sun Domain Spells table.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" level="1" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_FAERIE_FIRE" level="1" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_FLAMING_SPHERE" level="3" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_SCORCHING_RAY" level="3" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_DAYLIGHT" level="5" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_FIREBALL" level="5" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_GUARDIAN_OF_FAITH" level="7" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FIRE" level="7" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_FLAME_STRIKE" level="9" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_SCRYING" level="9" spellcasting="Cleric" prepared="true" />
+        </rules>
+    </element>
+    <element name="Sun Flare" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_SUN_FLARE">
+        <description>
+            <p>You automatically succeed on Constitution saves against heat caused by natural weather; your water consumption is treated as if you were continually in the shade</p>
+        </description>
+        <sheet alt="Sun Flare">
+            <description>You automatically succeed on Constitution saves against heat caused by natural weather; your water consumption is treated as if you were continually in the shade</description>
+        </sheet>
+    </element>
+    <element name="Light's Revelation" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_LIGHTS_REVELATION">
+        <description>
+            <p>Once per day as an action you can burn all creatures within 20 ft. who intentionally tell a lie (it must be a falsehood, not a half-truth or incomplete information), dealing 1d6 fire damage/3 cleric levels. This power lasts for 1 minute. Each creature can only be damaged once, regardless of how many lies they tell.</p>
+        </description>
+        <sheet alt="Light's Revelation" action="Action">
+            <description>Once per day as an action you can burn all creatures within 20 ft. who intentionally tell a lie (it must be a falsehood, not a half-truth or incomplete information), dealing {{revelation:damagedice}}d6 fire damage. This power lasts for 1 minute. Each creature can only be damaged once, regardless of how many lies they tell.</description>
+        </sheet>
+        <rules>
+            <stat name="revelation:damagedice" value="level:cleric/3" />
+        </rules>
+    </element>
+    <element name="Fiery Wrath" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_FIERY_WRATH">
+        <description>
+            <p>You gain resistance to fire damage.</p>
+        </description>
+        <sheet alt="Fiery Wrath">
+            <description>You gain resistance to fire damage.</description>
+        </sheet>
+        <rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+		</rules>
+    </element>
+    <element name="Burning Eyes" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_BURNING_EYES">
+        <description>
+            <p>You cannot be stunned or blinded by light effects, magical or otherwise. During the day when outside, you gain a bonus on Perception checks equal to your cleric level/3.</p>
+        </description>
+        <sheet alt="Burning Eyes">
+            <description>You cannot be stunned or blinded by light effects, magical or otherwise. During the day when outside, you gain a {{level:cleric/3}} bonus on Perception checks.</description>
+        </sheet>
+        <rules>
+			<stat name="perception:misc" value="level:cleric/3" bonus="sun" />
+		</rules>
+    </element>
+    <element name="Warding Flare" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_WARDING_FLARE">
+        <description>
+            <p>You can interpose the sun’s radiance between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can’t be blinded is immune to this feature. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet alt="Warding Flare" action="Reaction">
+            <description>You can interpose the sun’s radiance between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can’t be blinded is immune to this feature. You can use this feature {{wisdom:modifier}} times (a minimum of once). You regain all expended uses when you finish a long rest.</description>
+        </sheet>
+    </element>
+    <element name="Channel Divinity: Crimson Smite" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_CHANNEL_DIVINITY_CRIMSON_SMITE">
+        <description>
+            <p>You can use your Channel Divinity to harness sunlight, banishing darkness and dealing radiant damage to your foes. As an action, you present a symbol of the sun, and any magical darkness within 30 feet of you is dispelled. Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes radiant damage equal to 2d10 + your cleric level on a failed saving throw, and half as much damage on a successful one. A creature that has total cover from you is not affected.</p>
+        </description>
+        <sheet alt="Crimson Smite" usage="Channel Divinity" action="Action">
+            <description>As an action, you present a symbol of the sun, and any magical darkness within 30 feet of you is dispelled. Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes radiant damage equal to 2d10 + {{level:cleric}} on a failed saving throw, and half as much damage on a successful one. A creature that has total cover from you is not affected.</description>
+        </sheet>
+    </element>
+    <element name="Improved Flare" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_IMPROVED_FLARE">
+        <description>
+            <p>You can also use your Warding Flare feature when a creature that you can see within 30 feet of you attacks a creature other than you</p>
+        </description>
+        <sheet alt="Improved Flare" action="Reaction">
+            <description>You can also use your Warding Flare feature when a creature that you can see within 30 feet of you attacks a creature other than you</description>
+        </sheet>
+    </element>
+    <element name="Potent Spellcasting" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_POTENT_SPELLCASTING">
+        <description>
+            <p>Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.</p>
+        </description>
+        <sheet>
+            <description>Add your Wisdom modifier (+{{potent spellcasting:modifier}}) to the damage you deal with any cleric cantrip.</description>
+        </sheet>
+        <rules>
+            <stat name="potent spellcasting:modifier" value="wisdom:modifier" />
+        </rules>
+    </element>
+    <element name="Corona of the Creator" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_CORONA_OF_THE_CREATOR">
+        <description>
+            <p>You can use your action to activate an aura of sunlight that lasts for 1 minute or until you dismiss it using another action. You emit bright light in a 60-foot radius and dim light 30 feet beyond that. Your enemies in the bright light have disadvantage on saving throws against any spell that deals fire or radiant damage.</p>
+        </description>
+        <sheet alt="Corona of the Creator" action="Action">
+            <description>You can use your action to activate an aura of sunlight that lasts for 1 minute or until you dismiss it using another action. You emit bright light in a 60-foot radius and dim light 30 feet beyond that. Your enemies in the bright light have disadvantage on saving throws against any spell that deals fire or radiant damage.</description>
+        </sheet>
+    </element>
+</elements>
