@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Honor Fighter</name>
+		<description>Variant Fighter archetype for the D&amp;D 5e campaign set in the DarkSun setting</description>
+		<update version="0.0.1">
+			<file name="Honor Fighter.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Honor Fighter.xml" />
+		</update>
+	</info>
+    <element name="Honor Fighter" type="Archetype" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FIGHTER_HONOR">
+        <supports>Martial Archetype</supports>
+        <description>
+            <p></p>
+            <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_SAMURAI_BONUS_PROFICIENCY" />
+            <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_SAMURAI_FIGHTING_SPIRIT" />
+            <div element="ID_DARKSUN_ARCHETYPE_FEATURE_HONOR_FAVOURED_BY_CROWD" />
+            <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_SAMURAI_TIRELESS_SPIRIT" />
+            <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_SAMURAI_RAPID_STRIKE" />
+            <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_SAMURAI_STRENGTH_BEFORE_DEATH" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_SAMURAI_BONUS_PROFICIENCY" level="3" />
+            <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_SAMURAI_FIGHTING_SPIRIT" level="3" />
+            <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_HONOR_FAVOURED_BY_CROWD" level="7" />
+            <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_SAMURAI_TIRELESS_SPIRIT" level="10" />
+            <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_SAMURAI_RAPID_STRIKE" level="15" />
+            <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_SAMURAI_STRENGTH_BEFORE_DEATH" level="18" />
+        </rules>
+    </element>
+    <element name="Favoured By The Crowd" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_HONOR_FAVOURED_BY_CROWD">
+        <description>
+            <p>Starting at 7th level, your discipline and skills in entertaining give you an advantage in understanding what people want. Whenever you make a Charisma (Persuasion) check, you gain a bonus to the check equal to your Wisdom modifier.</p>
+            <p class="indent">Your self-control also causes you to gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice).</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="persuasion:misc" value="wisdom:modifier" />
+            <select type="Proficiency" name="Saving Throw Proficiency (Honor Fighter)" supports="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE|ID_PROFICIENCY_SAVINGTHROW_WISDOM|ID_PROFICIENCY_SAVINGTHROW_CHARISMA" default="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
+        </rules>
+    </element>
+</elements>
