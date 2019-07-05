@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Athasian Druid</name>
+		<description>Variant Druid class for the D&amp;D 5e campaign set in the DarkSun setting</description>
+		<update version="0.0.1">
+			<file name="Athasian Druid.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Athasian Druid.xml" />
+		</update>
+	</info>
+    <element name="Druid" type="Class" source="Dark Sun 5e Conversion" id="ID_DARKSUN_CLASS_DRUID">
+        <description>
+            <!-- <p class="flavor">A priest of the Old Faith, wielding the powers of nature— moonlight and plant growth, fire and lightning—and adopting animal forms.</p> -->
+            <p>Holding high a gnarled staff wreathed with holly, an elf summons the fury of the storm and calls down explosive bolts of lightning to smite the torch-carrying orcs who threaten her forest.</p>
+            <p class="indent">Crouching out of sight on a high tree branch in the form of a leopard, a human peers out of the jungle at the strange construction of a temple of Evil Elemental Air, keeping a close eye on the cultists’ activities.</p>
+            <p class="indent">Swinging a blade formed of pure fire, a half-elf charges into a mass of skeletal soldiers, sundering the unnatural magic that gives the foul creatures the mocking semblance of life.</p>
+            <p class="indent">Whether calling on the elemental forces of nature or emulating the creatures of the animal world, druids are an embodiment of nature’s resilience, cunning, and fury. They claim no mastery over nature. Instead, they see themselves as extensions of nature’s indomitable will.</p>
+            <h4>POWER OF NATURE</h4>
+            <p>Druids revere nature above all, gaining their spells and other magical powers either from the force of nature itself or from a nature deity. Many druids pursue a mystic spirituality of transcendent union with nature rather than devotion to a divine entity, while others serve gods of wild nature, animals, or elemental forces. The ancient druidic traditions are sometimes called the Old Faith, in contrast to the worship of gods in temples and shrines.</p>
+            <p class="indent">Druid spells are oriented toward nature and animals— the power of tooth and claw, of sun and moon, of fire and storm. Druids also gain the ability to take on animal forms, and some druids make a particular study of this practice, even to the point where they prefer animal form to their natural form.</p>
+            <h4>PRESERVE THE BALANCE</h4>
+            <p>For druids, nature exists in a precarious balance. The four elements that make up a world—air, earth, fire, and water—must remain in equilibrium. If one element were to gain power over the others, the world could be destroyed, drawn into one of the elemental planes and broken apart into its component elements. Thus, druids oppose cults of Elemental Evil and others who promote one element to the exclusion of others.</p>
+            <p class="indent">Druids are also concerned with the delicate ecological balance that sustains plant and animal life, and the need for civilized folk to live in harmony with nature, not in opposition to it. Druids accept that which is cruel in nature, and they hate that which is unnatural, including aberrations (such as beholders and mind flayers) and undead (such as zombies and vampires). Druids sometimes lead raids against such creatures, especially when the monsters encroach on the druids’ territory.</p>
+            <p class="indent">Druids are often found guarding sacred sites or watching over regions of unspoiled nature. But when a significant danger arises, threatening nature’s balance or the lands they protect, druids take on a more active role in combating the threat, as adventurers.</p>
+            <h4>CREATING A DRUID</h4>
+            <p>When making a druid, consider why your character has such a close bond with nature. Perhaps your character lives in a society where the Old Faith still thrives, or was raised by a druid after being abandoned in the depths of a forest. Perhaps your character had a dramatic encounter with the spirits of nature, coming face to face with a giant eagle or dire wolf and surviving the experience. Maybe your character was born during an epic storm or a volcanic eruption, which was interpreted as a sign that becoming a druid was part of your character’s destiny.</p>
+            <p class="indent">Have you always been an adventurer as part of your druidic calling, or did you first spend time as a caretaker of a sacred grove or spring? Perhaps your homeland was befouled by evil, and you took up an adventuring life in hopes of finding a new home or purpose.</p>
+            <h5>QUICK BUILD</h5>
+            <p>You can make a druid quickly by following these suggestions. First, Wisdom should be your highest ability score, followed by Constitution. Second, choose the hermit background.</p>
+            <h3>CLASS FEATURES</h3>
+            <p>As a druid, you gain the following class features.</p>
+            <h5>HIT POINTS</h5>
+            <p>
+                <span class="emphasis">Hit Dice:</span>1d8 per druid level<br /><span class="emphasis">Hit Points at 1st Level:</span>8 + your Constitution modifier<br /><span class="emphasis">Hit Points at Higher Levels:</span>1d8 (or 5) + your Constitution modifier per druid level after 1st<br /></p>
+            <h5>PROFICIENCIES</h5>
+            <p>
+                <span class="emphasis">Armor:</span>Light armor, medium armor, shields (druids will not wear armor or use shields made of metal)<br /><span class="emphasis">Weapons:</span>Clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears<br /><span class="emphasis">Tools:</span>Herbalism kit<br /></p>
+            <p>
+                <span class="emphasis">Saving Throws:</span>Intelligence, Wisdom<br /><span class="emphasis">Skills:</span>Choose two from Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, and Survival<br /></p>
+            <h5>EQUIPMENT</h5>
+            <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+            <ul>
+                <li>(a) a wooden shield or (b) any simple weapon</li>
+                <li>(a) a scimitar or (b) any simple melee weapon</li>
+                <li>Leather armor, an explorer’s pack, and a druidic focus</li>
+            </ul>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_DRUIDIC" />
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_SPELLCASTING_DRUID" />
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_WILDSHAPE" />
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_DRUID_CIRCLE" />
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_ABILITYSCOREIMPROVEMENT_DRUID" />
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_TIMELESS_BODY" />
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_BEAST_SPELLS" />
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_ARCHDRUID" />
+        </description>
+        <sheet display="false">
+            <description>A priest of the Old Faith, wielding the powers of nature—moonlight and plant growth, fire and lightning—and adopting animal forms.</description>
+        </sheet>
+        <setters>
+            <set name="short">A priest of the Old Faith, wielding the powers of nature—moonlight and plant growth, fire and lightning—and adopting animal forms.</set>
+            <set name="hd">d8</set>
+            <set name="spellcaster">true</set>
+            <set name="spellcastingAbility">Wisdom</set>
+        </setters>
+        <rules>
+            <!-- <grant type="Grants" id="ID_INTERNAL_GRANTS_AVERAGE_HP_D8" /> -->
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SICKLE" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_ALAK" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BLOWGUN" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID" />
+            <select type="Proficiency" name="Skill Proficiency (Druid)" supports="Skill,Druid" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID" />
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_DRUIDIC" level="1" />
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_SPELLCASTING_DRUID" level="1" />
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_WILDSHAPE" level="2" />
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_DRUID_CIRCLE" level="2" />
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_ABILITYSCOREIMPROVEMENT_DRUID" level="4" />
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_TIMELESS_BODY" level="18" />
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_BEAST_SPELLS" level="18" />
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_ARCHDRUID" level="20" />
+        </rules>
+        <multiclass id="ID_WOTC_PHB_MULTICLASS_DRUID">
+            <prerequisite>Wisdom 13</prerequisite>
+            <requirements>[wis:13]</requirements>
+            <setters>
+                <set name="multiclass proficiencies">Light armor, medium armor, shields (druids will not wear armor or use shields made of metal)</set>
+            </setters>
+            <rules>
+                <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+            </rules>
+        </multiclass>
+    </element>
+    <element name="Stealth" type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" source="Player’s Handbook">
+        <supports>Skill,Dexterity,ID_PROFICIENCY_SKILL,ID_CLASS_ROGUE,Rogue,ID_CLASS_BARD,Bard,ID_CLASS_MONK,Monk,ID_CLASS_RANGER,Ranger,ID_DARKSUN_CLASS_DRUID,Druid</supports>
+        <description>
+            <p>Make a Dexterity (Stealth) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard.</p>
+        </description>
+        <rules>
+            <stat name="stealth:proficiency" value="proficiency" bonus="proficiency" />
+        </rules>
+    </element>
+    <element name="Persuasion" type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" source="Player’s Handbook">
+        <supports>Skill,Charisma,ID_PROFICIENCY_SKILL,ID_CLASS_ROGUE,Rogue,ID_CLASS_SORCERER,Sorcerer,ID_CLASS_CLERIC,Cleric,ID_CLASS_BARD,Bard,ID_CLASS_PALADIN,Paladin,ID_DARKSUN_CLASS_DRUID,Druid</supports>
+        <description>
+            <p>When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma (Persuasion) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk.</p>
+        </description>
+        <rules>
+            <stat name="persuasion:proficiency" value="proficiency" bonus="proficiency" />
+        </rules>
+    </element>
+</elements>

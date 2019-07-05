@@ -3,7 +3,7 @@
 	<info>
 		<name>DarkSun Conversion: Classes</name>
 		<description>This material is intended for use with the DarkSun campaign for D&amp;D 5e by Luca Zenari</description>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="classes.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/classes.index" />
 		</update>
 	</info>
@@ -17,5 +17,7 @@
 		<file name="Fire Domain.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Fire Domain.xml" />
 		<file name="Water Domain.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Water Domain.xml" />
 		<file name="Sun Domain.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Sun Domain.xml" />
+
+		<file name="Athasian Druid.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Athasian Druid.xml" />
 	</files>
 </index>

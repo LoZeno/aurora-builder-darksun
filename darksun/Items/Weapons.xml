@@ -3,7 +3,7 @@
     <info>
 		<name>Weapons</name>
 		<description>Weapons for the D&amp;D 5e campaign set in the DarkSun setting</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="Weapons.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Items/Weapons.xml" />
 		</update>
 	</info>
@@ -132,6 +132,27 @@
         <supports>Weapon, Martial, Ranged, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING</supports>
     </element>
 
+    <!-- Blowgun -->
+    <element name="Blowgun" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_BLOWGUN">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING</supports>
+        <description>
+            <p>
+            </p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="cp">5</set>
+            <set name="weight" lb="4">4 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="piercing">1</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_BLOWGUN</set>
+        </setters>
+    </element>
+
+    <element name="Weapon Proficiency (Blowgun)" type="Proficiency" source="Dark Sun 5e Conversion" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BLOWGUN">
+        <supports>Weapon, Simple, Ranged, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING</supports>
+    </element>
+
     <!-- Widow's Knife -->
     <element name="Widow's Knife" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_WIDOWSKNIFE">
         <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
@@ -151,6 +172,27 @@
 
     <element name="Weapon Proficiency (Widow's Knife)" type="Proficiency" source="Dark Sun 5e Conversion" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WIDOWSKNIFE">
         <supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+    </element>
+
+    <!-- Alak -->
+    <element name="Alak" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_ALAK">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING</supports>
+        <description>
+            <p>
+            </p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="Cp">7</set>
+            <set name="weight" lb="6">6 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="piercing">1d6</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_ALAK</set>
+        </setters>
+    </element>
+
+    <element name="Weapon Proficiency (Alak)" type="Proficiency" source="Dark Sun 5e Conversion" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_ALAK">
+        <supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING</supports>
     </element>
 
     <!-- Obsidian Weapons -->
