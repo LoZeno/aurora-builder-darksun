@@ -3,7 +3,7 @@
     <info>
 		<name>Languages</name>
 		<description>Languages for the D&amp;D 5e campaign set in the DarkSun setting</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="Languages.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Rules/Languages.xml" />
 		</update>
 	</info>
@@ -51,7 +51,7 @@
             <div element="ID_DARKSUN_BACKGROUND_FEATURE_CROWD_PLEASER" />
         </description>
         <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
             <select type="Proficiency" name="Weapon Proficiency" supports="Weapon,Martial" number="1" />
             <grant type="Background Feature" id="ID_DARKSUN_BACKGROUND_FEATURE_CROWD_PLEASER" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
@@ -82,7 +82,7 @@
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" />
-            <select type="Proficiency" name="Musical Instrument" supports="Musical Instrument" />
+            <select type="Proficiency" name="Musical Instrument (Untrained Escaped Slave)" supports="Musical Instrument" />
             <grant type="Background Feature" id="ID_DARKSUN_BACKGROUND_FEATURE_SLAVES_RUMOR" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
             <select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
         </rules>
@@ -93,5 +93,63 @@
             <p>You can gain valuable information by speaking with slaves, who will be more than willing to help you in exchange for their freedom.</p>
         </description>
         <sheet alt="Slaves rumor" />
+    </element>
+
+    <element name="City State Militia" type="Background" source="Dark Sun 5e Conversion" id="ID_DARKSUN_BACKGROUND_CITY_STATE_MILITIA">
+        <description>
+            <p>You applied to join the militia and were accepted. You underwent the basic training and have been stationed in (insert city-state name) ever since. You walk a beat and have quickly learned a few of the local undesirables, the smart ones give you regular payouts to look the other way while you get to shake those who aren’t smart enough down for any contraband they might have.</p>
+            <ul class="unstyled">
+                <li>
+                    <strong>Skill Proficiencies:</strong>Deception, Intimidation</li>
+                <li>
+                    <strong>Tool proficiencies:</strong>Forgery kit, one type of artisan's tool</li>
+                <li>
+                    <strong>Equipment:</strong>An obsidian spear, loose guard robes, a pair of spiked gloves, and a belt pouch containing 20 Cp</li>
+            </ul>
+            <div element="ID_DARKSUN_BACKGROUND_FEATURE_FENCERS_REGULAR" />
+        </description>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT" />
+            <select type="Proficiency" name="Tool Proficiency (City State Militia)" supports="Artisan tools" />
+            <grant type="Background Feature" id="ID_DARKSUN_BACKGROUND_FEATURE_FENCERS_REGULAR" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+            <select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+        </rules>
+    </element>
+    <element name="Feature: Fencer's regular" type="Background Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_BACKGROUND_FEATURE_FENCERS_REGULAR">
+        <supports>Background Feature</supports>
+        <description>
+            <p>You know the underground pretty well and have often had to frequent fencers in order to transform the stolen goods you receive into cold, hard coin. In cities or large towns you are able quickly to find a fencer and sell and buy goods that would otherwise be illegal. Such fencers may also be able to put you into contact with shady types for a price.</p>
+        </description>
+        <sheet alt="Fencer's regular" />
+    </element>
+
+    <element name="Caravan Guard" type="Background" source="Dark Sun 5e Conversion" id="ID_DARKSUN_BACKGROUND_CARAVAN_GUARD">
+        <description>
+            <p>You decided that joining the caravan would be an easy way to get outside of the city, make a few coins, and be back by supper. Little did you know that the wastes were crawling with things that would make good of you as supper.</p>
+            <ul class="unstyled">
+                <li>
+                    <strong>Skill Proficiencies:</strong>Animal Handling, Perception</li>
+                <li>
+                    <strong>Tool proficiencies:</strong>Skilled in riding one animal of your choosing (Kank, Inix, Mekillot, etc)</li>
+                <li>
+                    <strong>Equipment:</strong>A bag of spice, robes with a veil, a rudimentary spyglass, and a belt pouch containing 20 Cp</li>
+            </ul>
+            <div element="ID_DARKSUN_BACKGROUND_FEATURE_DESERT_TRAVELER" />
+        </description>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ANIMALHANDLING" />
+            <grant type="Background Feature" id="ID_DARKSUN_BACKGROUND_FEATURE_DESERT_TRAVELER" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+            <select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+        </rules>
+    </element>
+    <element name="Feature: Desert traveller" type="Background Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_BACKGROUND_FEATURE_DESERT_TRAVELER">
+        <supports>Background Feature</supports>
+        <description>
+            <p>You are skilled in desert travel and know where safe places to rest are. When travelling along a trade route you can find a cave, crevasse or otherwise sheltered area to rest within a day’s travel.</p>
+        </description>
+        <sheet alt="Desert traveller" />
     </element>
 </elements>
