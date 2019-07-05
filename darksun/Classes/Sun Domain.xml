@@ -3,7 +3,7 @@
     <info>
 		<name>Sun Domain</name>
 		<description>New Cleric domain for the D&amp;D 5e campaign set in the DarkSun setting</description>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="Sun Domain.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Classes/Sun Domain.xml" />
 		</update>
 	</info>
@@ -24,7 +24,7 @@
             <div element="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_CHANNEL_DIVINITY_CRIMSON_SMITE" />
             <div element="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_IMPROVED_FLARE" />
             <div element="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_POTENT_SPELLCASTING" />
-            <div element="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_BREATHE_IN_VAIN" />
+            <div element="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_CORONA_OF_THE_CREATOR" />
         </description>
         <sheet display="false">
             <description>The Death domain is concerned with the forces that cause death, as well as the negative energy that gives rise to undead creatures.</description>
@@ -36,7 +36,7 @@
             <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_CHANNEL_DIVINITY_CRIMSON_SMITE" level="2" />
             <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_IMPROVED_FLARE" level="6" />
             <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_POTENT_SPELLCASTING" level="8" />
-            <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_BREATHE_IN_VAIN" level="17" />
+            <grant type="Archetype Feature" id="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_CORONA_OF_THE_CREATOR" level="17" />
         </rules>
     </element>
     <element name="Domain Spells" type="Archetype Feature" source="Dark Sun 5e Conversion" id="ID_DARKSUN_ARCHETYPE_FEATURE_SUN_DOMAIN_DOMAIN_SPELLS">
