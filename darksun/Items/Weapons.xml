@@ -49,7 +49,7 @@
     </element>
 
     <!-- Gythka -->
-    <element name="Gythka" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_GYTHKA">
+    <element name="Gythka (2 handed)" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_GYTHKA">
         <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
         <description>
             <p>
@@ -60,7 +60,23 @@
             <set name="cost" currency="cp">60</set>
             <set name="weight" lb="25">25 lb.</set>
             <set name="slot">twohand</set>
-            <set name="damage" type="slashing">1d10</set>
+            <set name="damage" type="slashing">1d8</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GYTHKA</set>
+        </setters>
+    </element>
+
+    <element name="Gythka (as dual weapon)" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_GYTHKA_DUAL_WEAPON">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+        <description>
+            <p>
+            </p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="cp">60</set>
+            <set name="weight" lb="25">25 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="slashing">1d8</set>
             <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GYTHKA</set>
         </setters>
     </element>
