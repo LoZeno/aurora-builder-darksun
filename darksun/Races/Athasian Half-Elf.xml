@@ -3,7 +3,7 @@
     <info>
 		<name>Half-Elf (Athas)</name>
 		<description>Race for the D&amp;D 5e campaign set in the DarkSun setting</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="Athasian Half-Elf.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Races/Athasian Half-Elf.xml" />
 		</update>
 	</info>
@@ -78,7 +78,7 @@
         <sheet alt="Half-Elf" display="false" />
         <rules>
             <stat name="dexterity" value="2" />
-            <select type="Racial Trait" name="Ability Score Increase (Half-Elf)" supports="Half-Elf" number="2" />
+            <select type="Racial Trait" name="Ability Score Increase (Half-Elf)" supports="Half-Elf-Athas" number="2" />
             <stat name="innate speed" value="30" bonus="base" />
             <grant type="Size" id="ID_SIZE_MEDIUM" />
             <grant type="Vision" id="ID_VISION_DARKVISION" />
@@ -108,5 +108,65 @@
         <sheet>
             <description>You have advantage on Animal Handling checks and Survival checks related to Animal tracks.</description>
         </sheet>
+    </element>
+
+    <element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Dark Sun 5e Conversion" id="ID_RACE_VARIANT_HALFELF_VARIANT_CHARISMA">
+        <supports>Half-Elf-Athas</supports>
+        <requirements />
+        <description>
+            <p>Your Charisma increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="charisma" value="1" alt="Half-Elf-Athas" />
+        </rules>
+    </element>
+
+    <element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Dark Sun 5e Conversion" id="ID_RACE_VARIANT_HALFELF_VARIANT_WISDOM">
+        <supports>Half-Elf-Athas</supports>
+        <requirements />
+        <description>
+            <p>Your Wisdom increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="wisdom" value="1" alt="Half-Elf-Athas" />
+        </rules>
+    </element>
+
+    <element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Dark Sun 5e Conversionk" id="ID_RACE_VARIANT_HALFELF_VARIANT_INTELLIGENCE">
+        <supports>Half-Elf-Athas</supports>
+        <requirements />
+        <description>
+            <p>Your Intelligence increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="intelligence" value="1" alt="Half-Elf-Athas" />
+        </rules>
+    </element>
+
+    <element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Dark Sun 5e Conversionk" id="ID_RACE_VARIANT_HALFELF_VARIANT_CONSTITUTION">
+        <supports>Half-Elf-Athas</supports>
+        <requirements />
+        <description>
+            <p>Your Constitution increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="constitution" value="1" alt="Half-Elf-Athas" />
+        </rules>
+    </element>
+
+    <element name="Ability Score Increase (Strength)" type="Racial Trait" source="Dark Sun 5e Conversionk" id="ID_RACE_VARIANT_HALFELF_VARIANT_STRENGTH">
+        <supports>Half-Elf-Athas</supports>
+        <requirements />
+        <description>
+            <p>Your Strength increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="1" alt="Half-Elf-Athas" />
+        </rules>
     </element>
 </elements>
