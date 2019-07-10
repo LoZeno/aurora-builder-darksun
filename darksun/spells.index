@@ -3,7 +3,7 @@
 	<info>
 		<name>DarkSun Conversion: Psionic Powers</name>
 		<description>This material is intended for use with the DarkSun campaign for D&amp;D 5e by Luca Zenari</description>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="spells.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/spells.index" />
 		</update>
 	</info>

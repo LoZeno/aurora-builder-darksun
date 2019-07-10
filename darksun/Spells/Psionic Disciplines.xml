@@ -3,7 +3,7 @@
 	<info>
 		<name>Psionic Powers</name>
 		<description>Modified Psionic disciplines for the D&amp;D 5e campaign set in the DarkSun setting</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="Psionic Disciplines.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Spells/Psionic Disciplines.xml" />
 		</update>
 	</info>
@@ -1037,7 +1037,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Psychic Phantoms" type="Spell" source="Dark Sun 5e Conversion" id="ID_DARKSUN_SPELL_MYSTIC_NOMADIC_STEP">
+	<element name="Psychic Phantoms" type="Spell" source="Dark Sun 5e Conversion" id="ID_DARKSUN_SPELL_MYSTIC_PSYCHIC_PHANTOMS">
 		<supports>Psionic Disciplines</supports>
 		<requirements>ID_DARKSUN_CLASS_MYSTIC</requirements>
 		<description>
