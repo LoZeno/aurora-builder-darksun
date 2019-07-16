@@ -200,7 +200,7 @@
         </description>
         <setters>
             <set name="category">Weapons</set>
-            <set name="cost" currency="cp">4</set>
+            <set name="cost" currency="gp">4</set>
             <set name="weight" lb="1">1 lb.</set>
             <set name="slot">onehand</set>
             <set name="damage" type="piercing">1d4</set>
@@ -276,6 +276,28 @@
 
     <element name="Weapon Proficiency (Great Tonfa)" type="Proficiency" source="Dark Sun 5e Conversion" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREAT_TONFA">
         <supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+    </element>
+
+    <!-- Datchi Club -->
+    <element name="Datchi Club" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_DATCHI">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_REACH</supports>
+        <description>
+            <p>
+                A datchi club has reach. You can strike opponents 10 feet away with it, but you cannot use it against an adjacent foe. This weapon, generally found in the arenas, is made by affixing a 4‐5 foot length of dried insect hive or roots to a three‐foot long shaft. Teeth, claws, or obsidian shards are embedded into the head of the weapon.
+            </p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">5</set>
+            <set name="weight" lb="10">10 lb.</set>
+            <set name="slot">twohand</set>
+            <set name="damage" type="piercing">1d8</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DATCHI</set>
+        </setters>
+    </element>
+
+    <element name="Weapon Proficiency (Datchi Club)" type="Proficiency" source="Dark Sun 5e Conversion" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DATCHI">
+        <supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_REACH</supports>
     </element>
 
     <!-- Obsidian Weapons -->
