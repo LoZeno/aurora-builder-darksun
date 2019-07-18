@@ -3,7 +3,7 @@
     <info>
 		<name>Weapons</name>
 		<description>Weapons for the D&amp;D 5e campaign set in the DarkSun setting</description>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="Weapons.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Items/Weapons.xml" />
 		</update>
 	</info>
@@ -298,6 +298,79 @@
 
     <element name="Weapon Proficiency (Datchi Club)" type="Proficiency" source="Dark Sun 5e Conversion" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DATCHI">
         <supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_REACH</supports>
+    </element>
+
+    <!-- Pelota -->
+    <element name="Pelota" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_PELOTA">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+        <description>
+            <p>
+                Popular in arena games and increasingly popular in the street games of some city‐states, pelota are hollow leaden spheres with small holes that cause the sphere to whistle as it flies through the air. The surface of most pelota is studded with obsidian shards. You can use the dejada throwing glove to cast pelota at much higher speed and with greater accuracy, dealing more damage than a pelota thrown by hand.
+            </p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">2</set>
+            <set name="weight" lb="1">1 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="bludgeoning">1d4</set>
+            <set name="range">20/60</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_PELOTA</set>
+        </setters>
+    </element>
+
+    <element name="Weapon Proficiency (Pelota)" type="Proficiency" source="Dark Sun 5e Conversion" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_PELOTA">
+        <supports>Weapon, Simple, Ranged, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+    </element>
+
+    <!-- Forearm Axe -->
+    <element name="Forearm Axe" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_FOREARM_AXE">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+        <description>
+            <p>
+                Strapped to the forearm like a buckler, the forearm axe resembles a double‐headed battleaxe, with the wearer’s arm serving as the haft of the axe. You may continue to use your hand normally, but you cannot attack with the forearm axe and a wielded weapon in the same hand in one round. Your opponent cannot use a disarm action to disarm you of a forearm axe.
+            </p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">30</set>
+            <set name="weight" lb="6">6 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="slashing">1d4</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_FOREARM_AXE</set>
+        </setters>
+    </element>
+
+    <element name="Weapon Proficiency (Forearm Axe)" type="Proficiency" source="Dark Sun 5e Conversion" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FOREARM_AXE">
+        <supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+    </element>
+
+    <!-- Tortoise Blade -->
+    <element name="Tortoise Blade" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_TORTOISE_BLADE">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
+        <description>
+            <p>
+                The tortoise blade consists of a foot‐ long dagger mounted to the center of a shell. The tortoise blade is strapped over the wearer’s hand, preventing them from holding anything but the tortoise blade. The tortoise blade also functions as a buckler, granting a +1 armor bonus. A masterwork tortoise blade either functions as a masterwork shield or a masterwork weapon (or both, for twice the normal masterwork cost).
+            </p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">20</set>
+            <set name="weight" lb="2">2 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="slashing">1d4</set>
+            <set name="type">Shield</set>
+            <set name="armor">Shield</set>
+            <set name="armorClass">+1</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_TORTOISE_BLADE</set>
+        </setters>
+        <rules>
+		    <stat name="ac:shield" value="1" bonus="shield" />
+        </rules>
+    </element>
+
+    <element name="Weapon Proficiency (Tortoise Blade)" type="Proficiency" source="Dark Sun 5e Conversion" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TORTOISE_BLADE">
+        <supports>Weapon, Martial, Melee, Shield, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
     </element>
 
     <!-- Obsidian Weapons -->
