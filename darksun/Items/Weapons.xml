@@ -599,7 +599,7 @@
         <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
         <description>
             <p>
-                Three blades project radially from the business end of a six‐foot long haft. A series of sharp serrated edges line the shaft below the foot‐long blades, while the far end of the weapon is weighted, in order to balance the weapon. Because of the trikal’s curved blades on the top of the weapon, trip attacks can also be made with it. If a character is tripped during his or her trip attempt, the trikal can be dropped to avoid being tripped.
+                Three blades project radially from the business end of a six‐foot long haft. A series of sharp serrated edges line the shaft below the foot‐long blades, while the far end of the weapon is weighted, in order to balance the weapon. Because of the trikal’s curved blades on the top of the weapon, shoving attacks can also be made with advantage.
             </p>
         </description>
         <setters>
