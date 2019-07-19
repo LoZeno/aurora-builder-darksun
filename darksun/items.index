@@ -3,7 +3,7 @@
 	<info>
 		<name>DarkSun Conversion: Items</name>
 		<description>This material is intended for use with the DarkSun campaign for D&amp;D 5e by Luca Zenari</description>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="items.index" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/items.index" />
 		</update>
 	</info>
