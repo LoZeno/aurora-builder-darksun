@@ -3,7 +3,7 @@
     <info>
 		<name>Weapons</name>
 		<description>Weapons for the D&amp;D 5e campaign set in the DarkSun setting</description>
-		<update version="0.0.7">
+		<update version="0.0.8">
 			<file name="Weapons.xml" url="https://raw.githubusercontent.com/LoZeno/aurora-builder-darksun/master/darksun/Items/Weapons.xml" />
 		</update>
 	</info>
@@ -462,6 +462,160 @@
         <supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
     </element>
 
+    <!-- Impaler -->
+    <element name="Impaler" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_IMPALER">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY</supports>
+        <description>
+            <p>
+                Like many Athasian weapons, the impaler was developed for the arenas. Two blades are mounted parallel to the end of a four‐foot long shaft, forming a bladed ‘T’. The impaler is swung horizontally or vertically with great force.
+            </p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">8</set>
+            <set name="weight" lb="5">5 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="piercing">1d6</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_IMPALER</set>
+        </setters>
+    </element>
+
+    <element name="Weapon Proficiency (Impaler)" type="Proficiency" source="Dark Sun 5e Conversion" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_IMPALER">
+        <supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY</supports>
+    </element>
+
+    <!-- Macahuitl -->
+    <element name="Macahuitl" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_MACAHUITL">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+        <description>
+            <p>
+                A macahuitl is a sword painstakingly crafted using a core of solid wood, with small, sharp shards of obsidian embedded into the wood to form an edge on two opposite sides of the weapon. These weapons are swung like the scimitar, though macahuitls tend to require more maintenance. The macahuitl is especially popular among the Draji, who seem to be the only ones who can easily pronounce this weapon’s Draji name (“ma‐ka‐wheet‐luh”). Non‐Draji simply refer to it as the “obsidian sword” or the “Draji sword.”
+            </p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">35</set>
+            <set name="weight" lb="5">5 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="slashing">1d8</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MACAHUITL</set>
+        </setters>
+    </element>
+
+    <element name="Weapon Proficiency (Macahuitl)" type="Proficiency" source="Dark Sun 5e Conversion" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MACAHUITL">
+        <supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+    </element>
+
+    <!-- Crusher -->
+    <element name="Crusher" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_CRUSHER">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH</supports>
+        <description>
+            <p>
+                The crusher is made from a large stone or metal weight, mounted at the end of a 15‐foot long shaft of springy wood. The weight is whipped back and forth. The crusher is a reach weapon. You can strike opponents 10 feet away with it, but you cannot use it against an adjacent foe. You need a 15‐foot ceiling to use the weapon, but it can reach over cover. A crusher requires a base to use. The crusher’s base is enormously heavy, usually consisting of a thick slab of stone with a hole drilled through it to support the crusher’s pole. The base is transported separately from the pole, and it takes one full minute to set the crusher up for battle. The crusher is a martial weapon, finding most use in infantry units.
+            </p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">60</set>
+            <set name="weight" lb="12">12 lb.</set>
+            <set name="slot">twohand</set>
+            <set name="damage" type="bludgeoning">1d10</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CRUSHER</set>
+        </setters>
+    </element>
+
+    <element name="Weapon Proficiency (Crusher)" type="Proficiency" source="Dark Sun 5e Conversion" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CRUSHER">
+        <supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH</supports>
+    </element>
+
+    <!-- Gouge -->
+    <element name="Gouge" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_GOUGE">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+        <description>
+            <p>
+                Worn in an over‐the‐shoulder harness, the gouge is commonly found in the Nibenese infantry. A wide blade of bone, obsidian or chitin is mounted to a three‐foot long shaft of wood. Your opponent cannot use a disarm action to disarm you of a gouge while you are wearing the harness. Removing the harness is a move action.
+            </p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">20</set>
+            <set name="weight" lb="12">12 lb.</set>
+            <set name="slot">twohand</set>
+            <set name="damage" type="piercing">1d10</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GOUGE</set>
+        </setters>
+    </element>
+
+    <element name="Weapon Proficiency (Gouge)" type="Proficiency" source="Dark Sun 5e Conversion" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GOUGE">
+        <supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+    </element>
+
+    <!-- Macahuitl, Great -->
+    <element name="Macahuitl, Great" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_GREAT_MACAHUITL">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+        <description>
+            <p>
+                A macahuitl is a sword painstakingly crafted using a core of solid wood, with small, sharp shards of obsidian embedded into the wood to form an edge on two opposite sides of the weapon. These weapons are swung like the scimitar, though macahuitls tend to require more maintenance. The macahuitl is especially popular among the Draji, who seem to be the only ones who can easily pronounce this weapon’s Draji name (“ma‐ka‐wheet‐luh”). Non‐Draji simply refer to it as the “obsidian sword” or the “Draji sword.”
+            </p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">50</set>
+            <set name="weight" lb="12">12 lb.</set>
+            <set name="slot">twohand</set>
+            <set name="damage" type="slashing">2d6</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GREAT_MACAHUITL</set>
+        </setters>
+    </element>
+
+    <element name="Weapon Proficiency (Macahuitl, Great)" type="Proficiency" source="Dark Sun 5e Conversion" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREAT_MACAHUITL">
+        <supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+    </element>
+
+    <!-- Tkaesali -->
+    <element name="Tkaesali" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_TKAESALI">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_REACH</supports>
+        <description>
+            <p>
+                This polearm, commonly used by the nikaal, consists of long wooden haft topped with a circular, jagged blade. A tkaesali has reach. You can strike opponents 10 feet away with it, but you can’t use it against an adjacent foe.
+            </p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">8</set>
+            <set name="weight" lb="15">15 lb.</set>
+            <set name="slot">twohand</set>
+            <set name="damage" type="slashing">1d10</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_TKAESALI</set>
+        </setters>
+    </element>
+
+    <element name="Weapon Proficiency (Tkaesali)" type="Proficiency" source="Dark Sun 5e Conversion" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TKAESALI">
+        <supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_REACH</supports>
+    </element>
+
+    <!-- Trikal -->
+    <element name="Trikal" type="Weapon" source="Dark Sun 5e Conversion" id="ID_DARKSUN_WEAPON_TRIKAL">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+        <description>
+            <p>
+                Three blades project radially from the business end of a six‐foot long haft. A series of sharp serrated edges line the shaft below the foot‐long blades, while the far end of the weapon is weighted, in order to balance the weapon. Because of the trikal’s curved blades on the top of the weapon, trip attacks can also be made with it. If a character is tripped during his or her trip attempt, the trikal can be dropped to avoid being tripped.
+            </p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">10</set>
+            <set name="weight" lb="7">7 lb.</set>
+            <set name="slot">twohand</set>
+            <set name="damage" type="slashing">1d8</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIKAL</set>
+        </setters>
+    </element>
+
+    <element name="Weapon Proficiency (Trikal)" type="Proficiency" source="Dark Sun 5e Conversion" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIKAL">
+        <supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+    </element>
+
     <!-- Obsidian Weapons -->
     <element name="Weapon, Obsidian" type="Magic Item" source="Dark Sun 5e Conversion" id="ID_DARKSUN_OBSIDIAN_WEAPONS">
         <description>
@@ -549,6 +703,13 @@
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLODAK" />
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_ALHULAK" />
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CARRIKAL" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_IMPALER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MACAHUITL" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CRUSHER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GOUGE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREAT_MACAHUITL" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TKAESALI" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIKAL" />
 		</rules>
 	</append>
 
